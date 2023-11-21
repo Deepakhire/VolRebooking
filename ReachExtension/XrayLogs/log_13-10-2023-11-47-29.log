@@ -1,0 +1,5 @@
+2023-10-13 11:47:30.029INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-13 11:47:30.056INFO - Test Start Time: 2023-10-13T11:47:30+05:30
+2023-10-13 11:47:55.194INFO - Executing : user_launches_web_application
+2023-10-13 11:48:31.358INFO - Executing : user_enters_credential_in_login_page
+2023-10-13 11:53:13.569ERROR- Amadues login process failed.Page closed

@@ -1,0 +1,120 @@
+2023-10-25 15:56:49.911INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-25 15:56:49.917INFO - Test Start Time: 2023-10-25T15:56:49+05:30
+2023-10-25 15:57:01.406INFO - Executing : user_launches_web_application
+2023-10-25 15:57:42.525INFO - Executing : user_enters_credential_in_login_page
+2023-10-25 15:59:07.609ERROR- unable to find element : amadeus_HomePage. Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//span[@class='mdc-button__label']//span[text()='Home']")
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//span[@class='mdc-button__label']//span[text()='Home']")
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-2172010656701578306\package\lib\server\progress.js:88:26)
+    at Frame.waitForSelector (C:\Users\Admin\AppData\Local\Temp\playwright-java-2172010656701578306\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\Admin\AppData\Local\Temp\playwright-java-2172010656701578306\package\lib\server\dispatchers\frameDispatcher.js:98:117)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-2172010656701578306\package\lib\server\dispatchers\dispatcher.js:312:46)
+}
+2023-10-25 15:59:07.613ERROR- Page source on failure : 
+2023-10-25 15:59:07.627ERROR- <html><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style type="text/css">
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        line-height: 1.66666667;
+        font-size: 16px;
+        color: #333;
+        background-color: #fff;
+        margin: 2em 1em;
+      }
+      h1 {
+        font-size: 28px;
+        font-weight: 400;
+      }
+      p {
+        margin: 0 0 10px;
+      }
+      .alert.alert-info {
+        background-color: #F0F0F0;
+        margin-top: 30px;
+        padding: 30px;
+      }
+      .alert p {
+        padding-left: 35px;
+      }
+      ul {
+        padding-left: 51px;
+        position: relative;
+      }
+      li {
+        font-size: 14px;
+        margin-bottom: 1em;
+      }
+      p.info {
+        position: relative;
+        font-size: 20px;
+      }
+      p.info:before, p.info:after {
+        content: "";
+        left: 0;
+        position: absolute;
+        top: 0;
+      }
+      p.info:before {
+        background: #0066CC;
+        border-radius: 16px;
+        color: #fff;
+        content: "i";
+        font: bold 16px/24px serif;
+        height: 24px;
+        left: 0px;
+        text-align: center;
+        top: 4px;
+        width: 24px;
+      }
+
+      @media (min-width: 768px) {
+        body {
+          margin: 6em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Application is not available</h1>
+      <p>The application is currently not serving requests at this endpoint. It may not have been started or is still starting.</p>
+
+      <div class="alert alert-info">
+        <p class="info">
+          Possible reasons you are seeing this page:
+        </p>
+        <ul>
+          <li>
+            <strong>The host doesn't exist.</strong>
+            Make sure the hostname was typed correctly and that a route matching this hostname exists.
+          </li>
+          <li>
+            <strong>The host exists, but doesn't have a matching path.</strong>
+            Check if the URL path was typed correctly and that the route was created using the desired path.
+          </li>
+          <li>
+            <strong>Route and path matches, but all pods are down.</strong>
+            Make sure that the resources exposed by this route (pods, services, deployment configs, etc) have at least one pod running.
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+
+</body></html>
+2023-10-25 16:00:07.829INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Wed_Oct_25_16_00_07_IST_2023/', outputName='CucumberResultsOverview_LH_Wed_Oct_25_16_00_07_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-10-25 16:00:08.657INFO - Generating DetailedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Wed_Oct_25_16_00_07_IST_2023\CucumberResultsOverview_LH_Wed_Oct_25_16_00_07_IST_2023-feature-overview.html
+2023-10-25 16:00:08.659INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Wed_Oct_25_16_00_07_IST_2023/', outputName='CucumberDetailedResults_LH_Wed_Oct_25_16_00_07_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}
+2023-10-25 16:00:08.814INFO - Generating DetailedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Wed_Oct_25_16_00_07_IST_2023\CucumberDetailedResults_LH_Wed_Oct_25_16_00_07_IST_2023-test-results.html
+2023-10-25 16:00:08.818INFO - Generating OverviewDetailedCombinedReport startedOverviewDetailedCombinedReport{targetDirectoryPath='./Reports/LH_Wed_Oct_25_16_00_07_IST_2023/', outputName='OverviewDetailedReport_LH_Wed_Oct_25_16_00_07_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', itemInfos=[com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@1c025cb, com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@50825a02]}
+2023-10-25 16:00:08.940INFO - Generating OverviewDetailedCombinedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Wed_Oct_25_16_00_07_IST_2023\OverviewDetailedReport_LH_Wed_Oct_25_16_00_07_IST_2023-.html
+2023-10-25 16:00:08.940INFO - .\Reports\LH_Wed_Oct_25_16_00_07_IST_2023\OverviewDetailedReport_LH_Wed_Oct_25_16_00_07_IST_2023-.html

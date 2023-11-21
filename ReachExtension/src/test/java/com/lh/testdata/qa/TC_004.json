@@ -1,0 +1,29 @@
+{
+  "TC_004":
+  {
+    "PNR_Flow004":
+    {
+      "credential": "username,organization,amadeus_Pwd",
+      "username": "u102542",
+      "organization": "LH",
+      "amadeus_Pwd": "qZ2JK0aq8Wf&",
+      "origin_city": "BRU",
+      "destination_city": "FRA",
+      "adults": "2",
+      "children": "1",
+      "firstName": "Test",
+      "lastName": "User",
+      "emailAddress": "test@yopmail.com",
+      "countryCode": "Germany",
+      "phoneNumber": "1234567899",
+      "record_locator": "SR2N4M",
+      "last_name": "User",
+      "AMEX_card_number":"340000000001098",
+      "AMEX_cardholder_name": "Adult Test user",
+      "AMEX_card_expiry": "06/26",
+      "AMEX_card_cvv": "123",
+      "AMEX_billing_address": "Frankfurt"
+
+    }
+  }
+}

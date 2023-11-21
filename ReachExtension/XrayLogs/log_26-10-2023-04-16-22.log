@@ -1,0 +1,36 @@
+2023-10-26 16:16:22.391INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-26 16:16:22.496INFO - Test Start Time: 2023-10-26T16:16:22+05:30
+2023-10-26 16:16:33.266INFO - Executing : user_launches_web_application
+2023-10-26 16:17:10.549INFO - Executing : user_enters_credential_in_login_page
+2023-10-26 16:19:56.494ERROR- Error {
+  message='Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//input[@placeholder='Your first name']")
+  locator resolved to <input matinput="" type="text" required="" minlength="2…/>
+============================================================
+  name='Error
+  stack='Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//input[@placeholder='Your first name']")
+  locator resolved to <input matinput="" type="text" required="" minlength="2…/>
+============================================================
+    at C:\Users\Admin\AppData\Local\Temp\playwright-java-4333296724799392225\package\lib\server\chromium\crConnection.js:169:16
+    at new Promise (<anonymous>)
+    at CRSession.send (C:\Users\Admin\AppData\Local\Temp\playwright-java-4333296724799392225\package\lib\server\chromium\crConnection.js:165:12)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-4333296724799392225\package\lib\server\chromium\crExecutionContext.js:78:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-4333296724799392225\package\lib\server\javascript.js:60:61)
+    at evaluateExpression (C:\Users\Admin\AppData\Local\Temp\playwright-java-4333296724799392225\package\lib\server\javascript.js:218:26)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-4333296724799392225\package\lib\server\frames.js:969:23
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\Admin\AppData\Local\Temp\playwright-java-4333296724799392225\package\lib\server\frames.js:908:24)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-4333296724799392225\package\lib\server\frames.js:1036:29
+    at async ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-4333296724799392225\package\lib\server\progress.js:92:22)
+}
+2023-10-26 16:19:56.513ERROR- Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-4333296724799392225\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-4333296724799392225\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-4333296724799392225\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}

@@ -1,0 +1,14 @@
+2023-10-13 11:10:23.856INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-13 11:10:23.863INFO - Test Start Time: 2023-10-13T11:10:23+05:30
+2023-10-13 11:10:35.725INFO - Executing : user_launches_web_application
+2023-10-13 11:11:08.582INFO - Executing : user_enters_credential_in_login_page
+2023-10-13 11:14:30.390ERROR- unable to find element : origin_city. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-6185420219247264722\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-6185420219247264722\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-6185420219247264722\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-13 11:14:30.395ERROR- Page source on failure : 

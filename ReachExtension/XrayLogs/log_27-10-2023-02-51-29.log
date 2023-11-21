@@ -1,0 +1,79 @@
+2023-10-27 14:51:29.188INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-27 14:51:29.321INFO - Test Start Time: 2023-10-27T14:51:29+05:30
+2023-10-27 14:51:38.989INFO - Executing : user_launches_web_application
+2023-10-27 14:52:13.190INFO - Executing : user_enters_credential_in_login_page
+2023-10-27 14:54:17.987ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//button[@id='cm-acceptAll']")
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//button[@id='cm-acceptAll']")
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\server\frames.js:991:23)
+    at FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\server\dispatchers\frameDispatcher.js:149:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\server\dispatchers\dispatcher.js:312:46)
+}
+2023-10-27 14:54:52.019ERROR- unable to find element : Tenant. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-27 14:54:52.020ERROR- Page source on failure : 
+2023-10-27 14:54:54.044ERROR- unable to find element : Manage_Booking_RefX. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-27 14:54:54.044ERROR- Page source on failure : 
+2023-10-27 14:54:54.049ERROR- unable to find element : Record_Locator. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-27 14:54:54.050ERROR- Page source on failure : 
+2023-10-27 14:54:55.042ERROR- unable to find element : last_Name. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-27 14:54:55.042ERROR- Page source on failure : 
+2023-10-27 14:54:57.049ERROR- unable to find element : check_box. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-27 14:54:57.049ERROR- Page source on failure : 
+2023-10-27 14:54:59.067ERROR- unable to find element : submit_btn. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-7864515330549450442\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-27 14:54:59.067ERROR- Page source on failure : 

@@ -1,0 +1,32 @@
+2023-10-25 15:00:21.382INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-25 15:00:21.388INFO - Test Start Time: 2023-10-25T15:00:21+05:30
+2023-10-25 15:00:36.750INFO - Executing : user_launches_web_application
+2023-10-25 15:01:11.272INFO - Executing : user_enters_credential_in_login_page
+2023-10-25 15:02:56.984ERROR- Error {
+  message='Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//button[@id=\"cm-acceptAll\"]")
+============================================================
+  name='Error
+  stack='Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//button[@id=\"cm-acceptAll\"]")
+============================================================
+    at CRSession.send (C:\Users\Admin\AppData\Local\Temp\playwright-java-17953188654511547537\package\lib\server\chromium\crConnection.js:163:34)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-17953188654511547537\package\lib\server\chromium\crExecutionContext.js:78:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-17953188654511547537\package\lib\server\javascript.js:60:61)
+    at evaluateExpression (C:\Users\Admin\AppData\Local\Temp\playwright-java-17953188654511547537\package\lib\server\javascript.js:218:26)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-17953188654511547537\package\lib\server\frames.js:937:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\Admin\AppData\Local\Temp\playwright-java-17953188654511547537\package\lib\server\frames.js:908:24)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-17953188654511547537\package\lib\server\frames.js:992:29
+    at async ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-17953188654511547537\package\lib\server\progress.js:92:22)
+    at async FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-17953188654511547537\package\lib\server\dispatchers\frameDispatcher.js:149:12)
+    at async DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-17953188654511547537\package\lib\server\dispatchers\dispatcher.js:312:22)
+}
+2023-10-25 15:03:24.727INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Wed_Oct_25_15_03_24_IST_2023/', outputName='CucumberResultsOverview_LH_Wed_Oct_25_15_03_24_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-10-25 15:03:25.679INFO - Generating DetailedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Wed_Oct_25_15_03_24_IST_2023\CucumberResultsOverview_LH_Wed_Oct_25_15_03_24_IST_2023-feature-overview.html
+2023-10-25 15:03:25.681INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Wed_Oct_25_15_03_24_IST_2023/', outputName='CucumberDetailedResults_LH_Wed_Oct_25_15_03_24_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}
+2023-10-25 15:03:25.784INFO - Generating DetailedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Wed_Oct_25_15_03_24_IST_2023\CucumberDetailedResults_LH_Wed_Oct_25_15_03_24_IST_2023-test-results.html
+2023-10-25 15:03:25.787INFO - Generating OverviewDetailedCombinedReport startedOverviewDetailedCombinedReport{targetDirectoryPath='./Reports/LH_Wed_Oct_25_15_03_24_IST_2023/', outputName='OverviewDetailedReport_LH_Wed_Oct_25_15_03_24_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', itemInfos=[com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@4bff2185, com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@5c20ffa8]}
+2023-10-25 15:03:25.867INFO - Generating OverviewDetailedCombinedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Wed_Oct_25_15_03_24_IST_2023\OverviewDetailedReport_LH_Wed_Oct_25_15_03_24_IST_2023-.html
+2023-10-25 15:03:25.867INFO - .\Reports\LH_Wed_Oct_25_15_03_24_IST_2023\OverviewDetailedReport_LH_Wed_Oct_25_15_03_24_IST_2023-.html

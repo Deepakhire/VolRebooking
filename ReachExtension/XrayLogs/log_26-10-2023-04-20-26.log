@@ -1,0 +1,34 @@
+2023-10-26 16:20:26.084INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-26 16:20:26.191INFO - Test Start Time: 2023-10-26T16:20:26+05:30
+2023-10-26 16:20:36.910INFO - Executing : user_launches_web_application
+2023-10-26 16:21:18.142INFO - Executing : user_enters_credential_in_login_page
+2023-10-26 16:29:57.830ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//input[contains(@class, 'mdc-text-field__input') and @aria-labelledby=\"street-label\"]")
+  locator resolved to <input value="" type="text" required="" maxlength="35" …/>
+elementHandle.fill("street name")
+  waiting for element to be visible, enabled and editable
+    element is not visible - waiting...
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//input[contains(@class, 'mdc-text-field__input') and @aria-labelledby=\"street-label\"]")
+  locator resolved to <input value="" type="text" required="" maxlength="35" …/>
+elementHandle.fill("street name")
+  waiting for element to be visible, enabled and editable
+    element is not visible - waiting...
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-7512669198317579334\package\lib\server\progress.js:88:26)
+    at Frame.fill (C:\Users\Admin\AppData\Local\Temp\playwright-java-7512669198317579334\package\lib\server\frames.js:1035:23)
+    at FrameDispatcher.fill (C:\Users\Admin\AppData\Local\Temp\playwright-java-7512669198317579334\package\lib\server\dispatchers\frameDispatcher.js:161:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-7512669198317579334\package\lib\server\dispatchers\dispatcher.js:312:46)
+}
+2023-10-26 16:32:13.556INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Thu_Oct_26_16_32_13_IST_2023/', outputName='CucumberResultsOverview_LH_Thu_Oct_26_16_32_13_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-10-26 16:32:14.170INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Thu_Oct_26_16_32_13_IST_2023\CucumberResultsOverview_LH_Thu_Oct_26_16_32_13_IST_2023-feature-overview.html
+2023-10-26 16:32:14.171INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Thu_Oct_26_16_32_13_IST_2023/', outputName='CucumberDetailedResults_LH_Thu_Oct_26_16_32_13_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}
+2023-10-26 16:32:14.232INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Thu_Oct_26_16_32_13_IST_2023\CucumberDetailedResults_LH_Thu_Oct_26_16_32_13_IST_2023-test-results.html
+2023-10-26 16:32:14.235INFO - Generating OverviewDetailedCombinedReport startedOverviewDetailedCombinedReport{targetDirectoryPath='./Reports/LH_Thu_Oct_26_16_32_13_IST_2023/', outputName='OverviewDetailedReport_LH_Thu_Oct_26_16_32_13_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', itemInfos=[com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@26a4842b, com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@7e38a7fe]}
+2023-10-26 16:32:14.309INFO - Generating OverviewDetailedCombinedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Thu_Oct_26_16_32_13_IST_2023\OverviewDetailedReport_LH_Thu_Oct_26_16_32_13_IST_2023-.html
+2023-10-26 16:32:14.309INFO - .\Reports\LH_Thu_Oct_26_16_32_13_IST_2023\OverviewDetailedReport_LH_Thu_Oct_26_16_32_13_IST_2023-.html

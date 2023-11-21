@@ -1,0 +1,6 @@
+2023-10-13 14:19:49.616INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-13 14:19:49.653INFO - Test Start Time: 2023-10-13T14:19:49+05:30
+2023-10-13 14:20:06.566INFO - Executing : user_launches_web_application
+2023-10-13 14:20:40.290INFO - Executing : user_enters_credential_in_login_page
+2023-10-13 14:22:38.761WARN - objectKey is missing from the object Repository for : destination_city
+2023-10-13 14:22:38.761ERROR- objectKey is missing from the object Repository for : destination_city

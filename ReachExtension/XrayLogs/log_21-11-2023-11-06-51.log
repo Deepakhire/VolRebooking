@@ -1,0 +1,20 @@
+2023-11-21 11:06:51.787INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-21 11:06:51.902INFO - Test Start Time: 2023-11-21T11:06:51+05:30
+2023-11-21 11:07:02.081INFO - Executing : user_launches_web_application
+2023-11-21 11:07:34.768INFO - Executing : user_enters_credential_in_login_page
+2023-11-21 11:09:02.705ERROR- Timeout 30000ms exceeded
+2023-11-21 11:10:38.130ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//span[text()='Add extra bags']")
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//span[text()='Add extra bags']")
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-1318681724265523745\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-1318681724265523745\package\lib\server\frames.js:991:23)
+    at FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-1318681724265523745\package\lib\server\dispatchers\frameDispatcher.js:149:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-1318681724265523745\package\lib\server\dispatchers\dispatcher.js:312:46)
+}

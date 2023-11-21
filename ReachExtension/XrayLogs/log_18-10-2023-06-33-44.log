@@ -1,0 +1,19 @@
+2023-10-18 18:33:44.578INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-18 18:33:44.586INFO - Test Start Time: 2023-10-18T18:33:44+05:30
+2023-10-18 18:33:57.581INFO - Executing : user_launches_web_application
+2023-10-18 18:34:31.259INFO - Executing : user_enters_credential_in_login_page
+2023-10-18 18:37:21.172ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Agree").setExact(true))
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Agree").setExact(true))
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-16145696260896476945\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-16145696260896476945\package\lib\server\frames.js:991:23)
+    at FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-16145696260896476945\package\lib\server\dispatchers\frameDispatcher.js:149:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-16145696260896476945\package\lib\server\dispatchers\dispatcher.js:312:46)
+}

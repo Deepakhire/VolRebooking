@@ -1,0 +1,4 @@
+2023-10-23 15:03:46.652INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-23 15:03:46.658INFO - Test Start Time: 2023-10-23T15:03:46+05:30
+2023-10-23 15:03:58.158INFO - Executing : user_launches_web_application
+2023-10-23 15:04:32.537INFO - Executing : user_enters_credential_in_login_page

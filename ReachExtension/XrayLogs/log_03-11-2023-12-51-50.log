@@ -1,0 +1,11 @@
+2023-11-03 12:51:50.806INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-03 12:51:50.931INFO - Test Start Time: 2023-11-03T12:51:50+05:30
+2023-11-03 12:52:01.326INFO - Executing : user_launches_web_application
+2023-11-03 12:52:34.466INFO - Executing : user_enters_credential_in_login_page
+2023-11-03 12:54:17.362INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Fri_Nov_03_12_54_17_IST_2023/', outputName='CucumberResultsOverview_LH_Fri_Nov_03_12_54_17_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-11-03 12:54:18.053INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Fri_Nov_03_12_54_17_IST_2023\CucumberResultsOverview_LH_Fri_Nov_03_12_54_17_IST_2023-feature-overview.html
+2023-11-03 12:54:18.054INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Fri_Nov_03_12_54_17_IST_2023/', outputName='CucumberDetailedResults_LH_Fri_Nov_03_12_54_17_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}
+2023-11-03 12:54:18.228INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Fri_Nov_03_12_54_17_IST_2023\CucumberDetailedResults_LH_Fri_Nov_03_12_54_17_IST_2023-test-results.html
+2023-11-03 12:54:18.231INFO - Generating OverviewDetailedCombinedReport startedOverviewDetailedCombinedReport{targetDirectoryPath='./Reports/LH_Fri_Nov_03_12_54_17_IST_2023/', outputName='OverviewDetailedReport_LH_Fri_Nov_03_12_54_17_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', itemInfos=[com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@47404bea, com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@305f7627]}
+2023-11-03 12:54:18.287INFO - Generating OverviewDetailedCombinedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Fri_Nov_03_12_54_17_IST_2023\OverviewDetailedReport_LH_Fri_Nov_03_12_54_17_IST_2023-.html
+2023-11-03 12:54:18.288INFO - .\Reports\LH_Fri_Nov_03_12_54_17_IST_2023\OverviewDetailedReport_LH_Fri_Nov_03_12_54_17_IST_2023-.html

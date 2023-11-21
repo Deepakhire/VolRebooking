@@ -1,0 +1,28 @@
+2023-10-27 11:00:04.220INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-27 11:00:04.325INFO - Test Start Time: 2023-10-27T11:00:04+05:30
+2023-10-27 11:00:13.995INFO - Executing : user_launches_web_application
+2023-10-27 11:00:15.627ERROR- Error {
+  message='Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://uat.digital.airline.amadeus.com/1a/agate/shooter/configLHEmbedded::LH", waiting until "load"
+============================================================
+  name='Error
+  stack='Error: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://uat.digital.airline.amadeus.com/1a/agate/shooter/configLHEmbedded::LH", waiting until "load"
+============================================================
+    at C:\Users\Admin\AppData\Local\Temp\playwright-java-7029277629060638772\package\lib\server\frames.js:490:13
+    at async ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-7029277629060638772\package\lib\server\progress.js:92:22)
+    at async FrameDispatcher.goto (C:\Users\Admin\AppData\Local\Temp\playwright-java-7029277629060638772\package\lib\server\dispatchers\frameDispatcher.js:75:103)
+    at async DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-7029277629060638772\package\lib\server\dispatchers\dispatcher.js:312:22)
+}
+2023-10-27 11:00:15.628INFO - Executing : user_enters_credential_in_login_page
+2023-10-27 11:00:46.353ERROR- Amadues login process failed.Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-7029277629060638772\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-7029277629060638772\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-7029277629060638772\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}

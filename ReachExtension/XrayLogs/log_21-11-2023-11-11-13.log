@@ -1,0 +1,41 @@
+2023-11-21 11:11:13.971INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-21 11:11:14.070INFO - Test Start Time: 2023-11-21T11:11:14+05:30
+2023-11-21 11:11:22.059INFO - Executing : user_launches_web_application
+2023-11-21 11:11:54.608INFO - Executing : user_enters_credential_in_login_page
+2023-11-21 11:17:30.143ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//div[text()='Your booking is confirmed!']")
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//div[text()='Your booking is confirmed!']")
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-4702173807045800420\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-4702173807045800420\package\lib\server\frames.js:991:23)
+    at FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-4702173807045800420\package\lib\server\dispatchers\frameDispatcher.js:149:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-4702173807045800420\package\lib\server\dispatchers\dispatcher.js:312:46)
+}
+2023-11-21 11:18:29.890ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//span[text()='Add extra bags']")
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//span[text()='Add extra bags']")
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-4702173807045800420\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-4702173807045800420\package\lib\server\frames.js:991:23)
+    at FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-4702173807045800420\package\lib\server\dispatchers\frameDispatcher.js:149:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-4702173807045800420\package\lib\server\dispatchers\dispatcher.js:312:46)
+}
+2023-11-21 11:20:14.507INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Tue_Nov_21_11_20_14_IST_2023/', outputName='CucumberResultsOverview_LH_Tue_Nov_21_11_20_14_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-11-21 11:20:15.188INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Tue_Nov_21_11_20_14_IST_2023\CucumberResultsOverview_LH_Tue_Nov_21_11_20_14_IST_2023-feature-overview.html
+2023-11-21 11:20:15.190INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Tue_Nov_21_11_20_14_IST_2023/', outputName='CucumberDetailedResults_LH_Tue_Nov_21_11_20_14_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}
+2023-11-21 11:20:15.270INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Tue_Nov_21_11_20_14_IST_2023\CucumberDetailedResults_LH_Tue_Nov_21_11_20_14_IST_2023-test-results.html
+2023-11-21 11:20:15.273INFO - Generating OverviewDetailedCombinedReport startedOverviewDetailedCombinedReport{targetDirectoryPath='./Reports/LH_Tue_Nov_21_11_20_14_IST_2023/', outputName='OverviewDetailedReport_LH_Tue_Nov_21_11_20_14_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', itemInfos=[com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@b968a76, com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@2f9a01c1]}
+2023-11-21 11:20:15.332INFO - Generating OverviewDetailedCombinedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Tue_Nov_21_11_20_14_IST_2023\OverviewDetailedReport_LH_Tue_Nov_21_11_20_14_IST_2023-.html
+2023-11-21 11:20:15.333INFO - .\Reports\LH_Tue_Nov_21_11_20_14_IST_2023\OverviewDetailedReport_LH_Tue_Nov_21_11_20_14_IST_2023-.html

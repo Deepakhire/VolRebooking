@@ -1,0 +1,12 @@
+2023-10-23 11:08:34.013INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-23 11:08:34.019INFO - Test Start Time: 2023-10-23T11:08:34+05:30
+2023-10-23 11:08:45.375INFO - Executing : user_launches_web_application
+2023-10-23 11:09:33.247INFO - Executing : user_enters_credential_in_login_page
+2023-10-23 11:09:33.265ERROR- unable to load test data. dataKey = credentialException: java.lang.NullPointerException: Cannot invoke "java.util.Map.containsKey(Object)" because "ScenarioTDSet" is null
+2023-10-23 11:09:43.645INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Mon_Oct_23_11_09_43_IST_2023/', outputName='CucumberResultsOverview_LH_Mon_Oct_23_11_09_43_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-10-23 11:09:44.460INFO - Generating DetailedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Mon_Oct_23_11_09_43_IST_2023\CucumberResultsOverview_LH_Mon_Oct_23_11_09_43_IST_2023-feature-overview.html
+2023-10-23 11:09:44.462INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Mon_Oct_23_11_09_43_IST_2023/', outputName='CucumberDetailedResults_LH_Mon_Oct_23_11_09_43_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}
+2023-10-23 11:09:44.560INFO - Generating DetailedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Mon_Oct_23_11_09_43_IST_2023\CucumberDetailedResults_LH_Mon_Oct_23_11_09_43_IST_2023-test-results.html
+2023-10-23 11:09:44.562INFO - Generating OverviewDetailedCombinedReport startedOverviewDetailedCombinedReport{targetDirectoryPath='./Reports/LH_Mon_Oct_23_11_09_43_IST_2023/', outputName='OverviewDetailedReport_LH_Mon_Oct_23_11_09_43_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', itemInfos=[com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@1b9c1b51, com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@2e52fb3e]}
+2023-10-23 11:09:44.724INFO - Generating OverviewDetailedCombinedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Mon_Oct_23_11_09_43_IST_2023\OverviewDetailedReport_LH_Mon_Oct_23_11_09_43_IST_2023-.html
+2023-10-23 11:09:44.725INFO - .\Reports\LH_Mon_Oct_23_11_09_43_IST_2023\OverviewDetailedReport_LH_Mon_Oct_23_11_09_43_IST_2023-.html

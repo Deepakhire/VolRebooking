@@ -1,0 +1,27 @@
+2023-10-27 12:30:48.706INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-27 12:30:48.803INFO - Test Start Time: 2023-10-27T12:30:48+05:30
+2023-10-27 12:30:56.295INFO - Executing : user_launches_web_application
+2023-10-27 12:31:31.931INFO - Executing : user_enters_credential_in_login_page
+2023-10-27 12:36:24.632ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//span[contains(text(),'Continue to payment')]")
+  locator resolved to <span class="ng-star-inserted">Continue to payment</span>
+attempting click action
+  waiting for element to be visible, enabled and stable
+    element is not enabled - waiting...
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//span[contains(text(),'Continue to payment')]")
+  locator resolved to <span class="ng-star-inserted">Continue to payment</span>
+attempting click action
+  waiting for element to be visible, enabled and stable
+    element is not enabled - waiting...
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-2145884005294997646\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-2145884005294997646\package\lib\server\frames.js:991:23)
+    at FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-2145884005294997646\package\lib\server\dispatchers\frameDispatcher.js:149:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-2145884005294997646\package\lib\server\dispatchers\dispatcher.js:312:46)
+}

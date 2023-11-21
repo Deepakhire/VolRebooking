@@ -1,0 +1,6 @@
+2023-11-01 10:52:52.545INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-01 10:52:52.648INFO - Test Start Time: 2023-11-01T10:52:52+05:30
+2023-11-01 10:53:00.141INFO - Executing : user_launches_web_application
+2023-11-01 10:53:34.297INFO - Executing : user_enters_credential_in_login_page
+2023-11-01 11:30:42.147WARN - objectKey is missing from the object Repository for : Flights
+2023-11-01 11:30:42.147ERROR- objectKey is missing from the object Repository for : Flights

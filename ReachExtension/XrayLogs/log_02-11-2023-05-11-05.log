@@ -1,0 +1,8 @@
+2023-11-02 17:11:05.380INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-02 17:11:05.562INFO - Test Start Time: 2023-11-02T17:11:05+05:30
+2023-11-02 17:11:18.771INFO - Executing : user_launches_web_application
+2023-11-02 17:11:58.912INFO - Executing : user_enters_credential_in_login_page
+2023-11-02 17:14:02.890ERROR- Timeout 30000ms exceeded
+2023-11-02 17:15:21.919INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Thu_Nov_02_17_15_21_IST_2023/', outputName='CucumberResultsOverview_LH_Thu_Nov_02_17_15_21_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-11-02 17:15:23.522INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Thu_Nov_02_17_15_21_IST_2023\CucumberResultsOverview_LH_Thu_Nov_02_17_15_21_IST_2023-feature-overview.html
+2023-11-02 17:15:23.530INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Thu_Nov_02_17_15_21_IST_2023/', outputName='CucumberDetailedResults_LH_Thu_Nov_02_17_15_21_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}

@@ -1,0 +1,22 @@
+2023-11-01 11:45:44.642INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-01 11:45:44.751INFO - Test Start Time: 2023-11-01T11:45:44+05:30
+2023-11-01 11:45:52.403INFO - Executing : user_launches_web_application
+2023-11-01 11:46:29.130INFO - Executing : user_enters_credential_in_login_page
+2023-11-01 11:48:32.493ERROR- Timeout 30000ms exceeded
+2023-11-01 11:48:35.940ERROR- Error {
+  message='Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://uat.digital.airline.amadeus.com/1a/agate/picker", waiting until "load"
+============================================================
+  name='Error
+  stack='Error: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://uat.digital.airline.amadeus.com/1a/agate/picker", waiting until "load"
+============================================================
+    at C:\Users\Admin\AppData\Local\Temp\playwright-java-3401119653908554850\package\lib\server\frames.js:490:13
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:447:9)
+    at async ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-3401119653908554850\package\lib\server\progress.js:92:22)
+    at async FrameDispatcher.goto (C:\Users\Admin\AppData\Local\Temp\playwright-java-3401119653908554850\package\lib\server\dispatchers\frameDispatcher.js:75:103)
+    at async DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-3401119653908554850\package\lib\server\dispatchers\dispatcher.js:312:22)
+}

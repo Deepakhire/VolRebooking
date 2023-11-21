@@ -1,0 +1,13 @@
+2023-10-15 11:31:33.131INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-15 11:31:33.138INFO - Test Start Time: 2023-10-15T11:31:33+05:30
+2023-10-15 11:31:40.715INFO - Executing : user_launches_web_application
+2023-10-15 11:32:13.471INFO - Executing : user_enters_credential_in_login_page
+2023-10-15 11:33:58.051WARN - objectKey is missing from the object Repository for : Enable_Debug_Panel_checkbox
+2023-10-15 11:33:58.056ERROR- objectKey is missing from the object Repository for : Enable_Debug_Panel_checkbox
+2023-10-15 11:34:20.624INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Sun_Oct_15_11_34_20_IST_2023/', outputName='CucumberResultsOverview_LH_Sun_Oct_15_11_34_20_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-10-15 11:34:21.160INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\ReachExtension\Reports\LH_Sun_Oct_15_11_34_20_IST_2023\CucumberResultsOverview_LH_Sun_Oct_15_11_34_20_IST_2023-feature-overview.html
+2023-10-15 11:34:21.161INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Sun_Oct_15_11_34_20_IST_2023/', outputName='CucumberDetailedResults_LH_Sun_Oct_15_11_34_20_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}
+2023-10-15 11:34:21.252INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\ReachExtension\Reports\LH_Sun_Oct_15_11_34_20_IST_2023\CucumberDetailedResults_LH_Sun_Oct_15_11_34_20_IST_2023-test-results.html
+2023-10-15 11:34:21.254INFO - Generating OverviewDetailedCombinedReport startedOverviewDetailedCombinedReport{targetDirectoryPath='./Reports/LH_Sun_Oct_15_11_34_20_IST_2023/', outputName='OverviewDetailedReport_LH_Sun_Oct_15_11_34_20_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', itemInfos=[com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@18a645fd, com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@6090f3ca]}
+2023-10-15 11:34:21.345INFO - Generating OverviewDetailedCombinedReport completed C:\Users\Admin\OneDrive\Desktop\ReachExtension\Reports\LH_Sun_Oct_15_11_34_20_IST_2023\OverviewDetailedReport_LH_Sun_Oct_15_11_34_20_IST_2023-.html
+2023-10-15 11:34:21.345INFO - .\Reports\LH_Sun_Oct_15_11_34_20_IST_2023\OverviewDetailedReport_LH_Sun_Oct_15_11_34_20_IST_2023-.html

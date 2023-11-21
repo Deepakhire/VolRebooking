@@ -1,0 +1,23 @@
+2023-10-13 11:09:16.270INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-13 11:09:16.275INFO - Test Start Time: 2023-10-13T11:09:16+05:30
+2023-10-13 11:09:27.927INFO - Executing : user_launches_web_application
+2023-10-13 11:10:02.264INFO - Executing : user_enters_credential_in_login_page
+2023-10-13 11:10:05.009ERROR- unable to find element : amadeus_Pwd. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-9019031569083901467\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-9019031569083901467\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-9019031569083901467\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-13 11:10:05.009ERROR- Page source on failure : 
+2023-10-13 11:10:09.186ERROR- Amadues login process failed.Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-9019031569083901467\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-9019031569083901467\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-9019031569083901467\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}

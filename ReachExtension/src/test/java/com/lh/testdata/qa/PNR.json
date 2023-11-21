@@ -1,0 +1,19 @@
+{
+	"PNR":
+	{
+		"Amadeus_PNR_Flow":
+		{
+			"credential" : "username,organization,amadeus_Pwd",
+			"username" : "u102542",
+			"organization" : "LH",
+			"amadeus_Pwd" : "bV4Dg8LR",
+			"origin_city": "Frankfurt",
+			"destination_city": "Berlin",
+			"firstName": "Test",
+			"lastName": "User",
+			"emailAddress": "test@yopmail.com",
+			"countryCode": "Germany",
+			"phoneNumber": "1234567899"
+		}
+	}
+}

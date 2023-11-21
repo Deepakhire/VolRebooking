@@ -1,0 +1,23 @@
+{
+  "OS_TC_006_merged":
+  {
+    "CrossTenant_OS":
+    {
+      "credential" : "username,organization,amadeus_Pwd",
+      "username" : "u102542",
+      "organization" : "LH",
+      "amadeus_Pwd" : "qZ2JK0aq8Wf&",
+      "origin_city": "Vienna",
+      "destination_city": "New York",
+      "Adults": "1",
+      "children": "0",
+      "firstName": "Test",
+      "lastName": "User",
+      "emailAddress": "test@yopmail.com",
+      "record_locator": "VQUKHR",
+      "countryCode": "Germany",
+      "phoneNumber": "1234567899",
+      "last_name": "User"
+    }
+  }
+}

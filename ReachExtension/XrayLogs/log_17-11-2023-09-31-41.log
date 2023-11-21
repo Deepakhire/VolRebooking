@@ -1,0 +1,7 @@
+2023-11-17 09:31:42.034INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-17 09:31:42.160INFO - Test Start Time: 2023-11-17T09:31:42+05:30
+2023-11-17 09:31:53.243INFO - Executing : user_launches_web_application
+2023-11-17 09:32:26.810INFO - Executing : user_enters_credential_in_login_page
+2023-11-17 09:33:57.081ERROR- Timeout 30000ms exceeded
+2023-11-17 09:33:59.100WARN - objectKey is missing from the object Repository for : Manage_Booking_RefX
+2023-11-17 09:33:59.100ERROR- objectKey is missing from the object Repository for : Manage_Booking_RefX

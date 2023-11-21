@@ -1,0 +1,13 @@
+2023-11-17 19:00:50.791INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-17 19:00:50.909INFO - Test Start Time: 2023-11-17T19:00:50+05:30
+2023-11-17 19:00:59.520INFO - Executing : user_launches_web_application
+2023-11-17 19:01:33.369INFO - Executing : user_enters_credential_in_login_page
+2023-11-17 19:03:55.007ERROR- Timeout 30000ms exceeded
+2023-11-17 19:04:42.885ERROR- Timeout 30000ms exceeded
+2023-11-17 19:06:19.377INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Fri_Nov_17_19_06_19_IST_2023/', outputName='CucumberResultsOverview_LH_Fri_Nov_17_19_06_19_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-11-17 19:06:21.742INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Fri_Nov_17_19_06_19_IST_2023\CucumberResultsOverview_LH_Fri_Nov_17_19_06_19_IST_2023-feature-overview.html
+2023-11-17 19:06:21.748INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Fri_Nov_17_19_06_19_IST_2023/', outputName='CucumberDetailedResults_LH_Fri_Nov_17_19_06_19_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}
+2023-11-17 19:06:21.990INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Fri_Nov_17_19_06_19_IST_2023\CucumberDetailedResults_LH_Fri_Nov_17_19_06_19_IST_2023-test-results.html
+2023-11-17 19:06:21.999INFO - Generating OverviewDetailedCombinedReport startedOverviewDetailedCombinedReport{targetDirectoryPath='./Reports/LH_Fri_Nov_17_19_06_19_IST_2023/', outputName='OverviewDetailedReport_LH_Fri_Nov_17_19_06_19_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', itemInfos=[com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@4f071df8, com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@4de41af9]}
+2023-11-17 19:06:22.138INFO - Generating OverviewDetailedCombinedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Fri_Nov_17_19_06_19_IST_2023\OverviewDetailedReport_LH_Fri_Nov_17_19_06_19_IST_2023-.html
+2023-11-17 19:06:22.141INFO - .\Reports\LH_Fri_Nov_17_19_06_19_IST_2023\OverviewDetailedReport_LH_Fri_Nov_17_19_06_19_IST_2023-.html

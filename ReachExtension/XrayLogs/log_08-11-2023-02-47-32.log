@@ -1,0 +1,46 @@
+2023-11-08 14:47:32.475INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-08 14:47:32.638INFO - Test Start Time: 2023-11-08T14:47:32+05:30
+2023-11-08 14:47:42.448INFO - Executing : user_launches_web_application
+2023-11-08 14:48:16.107INFO - Executing : user_enters_credential_in_login_page
+2023-11-08 14:48:46.161ERROR- unable to find element : username. Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//input[@id='userIdInput']")
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//input[@id='userIdInput']")
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-6815551361361002100\package\lib\server\progress.js:88:26)
+    at Frame.waitForSelector (C:\Users\Admin\AppData\Local\Temp\playwright-java-6815551361361002100\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\Admin\AppData\Local\Temp\playwright-java-6815551361361002100\package\lib\server\dispatchers\frameDispatcher.js:98:117)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-6815551361361002100\package\lib\server\dispatchers\dispatcher.js:312:46)
+}
+2023-11-08 14:48:46.165ERROR- Page source on failure : 
+2023-11-08 14:48:46.177ERROR- <!DOCTYPE html><html lang="en"><head>
+  <meta use-1a-ddna="true">
+  <meta charset="utf-8">
+  <meta lid="0RWvtjTyXJmsbLdWSxomUdTZRTSGDlC8">
+  <title>Central Login Panel</title>
+  <base href="/LoginService/ng/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="design-factory.3fcb7a3a1c92304b.css">
+</head>
+<body>
+   <ui-view></ui-view>
+   <script src="runtime-es2015.f95d1a590b732ffd.js" type="module"></script>
+   <script src="polyfills-es2015.d6834f253e67dc66.js" type="module"></script>
+   <script src="main-es2015.4e7e6d942cdcd01c.js" type="module"></script>
+
+<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&amp;ns=1&amp;cb=1475370087" async=""></script>
+</body></html>
+2023-11-08 14:49:17.227INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Wed_Nov_08_14_49_17_IST_2023/', outputName='CucumberResultsOverview_LH_Wed_Nov_08_14_49_17_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-11-08 14:49:18.222INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Wed_Nov_08_14_49_17_IST_2023\CucumberResultsOverview_LH_Wed_Nov_08_14_49_17_IST_2023-feature-overview.html
+2023-11-08 14:49:18.224INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Wed_Nov_08_14_49_17_IST_2023/', outputName='CucumberDetailedResults_LH_Wed_Nov_08_14_49_17_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}
+2023-11-08 14:49:18.351INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Wed_Nov_08_14_49_17_IST_2023\CucumberDetailedResults_LH_Wed_Nov_08_14_49_17_IST_2023-test-results.html
+2023-11-08 14:49:18.362INFO - Generating OverviewDetailedCombinedReport startedOverviewDetailedCombinedReport{targetDirectoryPath='./Reports/LH_Wed_Nov_08_14_49_17_IST_2023/', outputName='OverviewDetailedReport_LH_Wed_Nov_08_14_49_17_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', itemInfos=[com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@7a527389, com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@485a3466]}
+2023-11-08 14:49:18.456INFO - Generating OverviewDetailedCombinedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Wed_Nov_08_14_49_17_IST_2023\OverviewDetailedReport_LH_Wed_Nov_08_14_49_17_IST_2023-.html
+2023-11-08 14:49:18.457INFO - .\Reports\LH_Wed_Nov_08_14_49_17_IST_2023\OverviewDetailedReport_LH_Wed_Nov_08_14_49_17_IST_2023-.html

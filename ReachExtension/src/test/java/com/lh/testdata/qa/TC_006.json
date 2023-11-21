@@ -1,0 +1,33 @@
+{
+  "TC_006":
+  {
+    "PNR_Flow006":
+    {
+      "credential" : "username,organization,amadeus_Pwd",
+      "username" : "u102542",
+      "organization" : "LH",
+      "amadeus_Pwd" : "bV4Dg8LR",
+      "origin_city": "FRA",
+      "destination_city": "NYC",
+      "Adults": "1",
+      "firstName": "Test",
+      "lastName": "User",
+      "emailAddress": "test@yopmail.com",
+      "countryCode": "Germany",
+      "phoneNumber": "1234567899",
+      "record_locator": "S5EGSI",
+      "last_name": "User",
+      "Master_card_number":"5200000000001096",
+      "Master_cardholder_name": "Adult Test user",
+      "Master_card_expiry": "06/26",
+      "Master_card_cvv": "123",
+      "Master_billing_address": "Frankfurt",
+
+
+
+
+
+      "Master_card_information": "5200000000001096"
+    }
+  }
+}

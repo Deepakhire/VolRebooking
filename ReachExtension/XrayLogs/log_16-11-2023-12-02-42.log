@@ -1,0 +1,18 @@
+2023-11-16 12:02:42.973INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-16 12:02:43.108INFO - Test Start Time: 2023-11-16T12:02:43+05:30
+2023-11-16 12:02:58.245INFO - Executing : user_launches_web_application
+2023-11-16 12:03:32.133INFO - Executing : user_enters_credential_in_login_page
+2023-11-16 12:03:32.145ERROR- OS_merged .json file not found. dataKey = credentialException: java.io.FileNotFoundException: .\src\test\java\com\lh\testdata\qa\OS_merged.json (The system cannot find the file specified)
+2023-11-16 12:03:36.890INFO - Executing : user_launches_web_application
+2023-11-16 12:04:10.554INFO - Executing : user_enters_credential_in_login_page
+2023-11-16 12:04:10.554ERROR- OS_merged .json file not found. dataKey = credentialException: java.io.FileNotFoundException: .\src\test\java\com\lh\testdata\qa\OS_merged.json (The system cannot find the file specified)
+2023-11-16 12:04:16.115INFO - Executing : user_launches_web_application
+2023-11-16 12:04:52.115INFO - Executing : user_enters_credential_in_login_page
+2023-11-16 12:04:52.116ERROR- OS_merged .json file not found. dataKey = credentialException: java.io.FileNotFoundException: .\src\test\java\com\lh\testdata\qa\OS_merged.json (The system cannot find the file specified)
+2023-11-16 12:05:13.260INFO - Executing : user_launches_web_application
+2023-11-16 12:05:47.102INFO - Executing : user_enters_credential_in_login_page
+2023-11-16 12:05:47.103ERROR- OS_merged .json file not found. dataKey = credentialException: java.io.FileNotFoundException: .\src\test\java\com\lh\testdata\qa\OS_merged.json (The system cannot find the file specified)
+2023-11-16 12:05:51.894INFO - Executing : user_launches_web_application
+2023-11-16 12:06:25.089INFO - Executing : user_enters_credential_in_login_page
+2023-11-16 12:06:25.091ERROR- OS_merged .json file not found. dataKey = credentialException: java.io.FileNotFoundException: .\src\test\java\com\lh\testdata\qa\OS_merged.json (The system cannot find the file specified)
+2023-11-16 12:06:32.811INFO - Executing : user_launches_web_application

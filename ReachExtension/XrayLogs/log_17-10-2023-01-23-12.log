@@ -1,0 +1,48 @@
+2023-10-17 13:23:12.792INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-17 13:23:12.800INFO - Test Start Time: 2023-10-17T13:23:12+05:30
+2023-10-17 13:23:23.953INFO - Executing : user_launches_web_application
+2023-10-17 13:24:00.872INFO - Executing : user_enters_credential_in_login_page
+2023-10-17 13:27:25.031ERROR- Error {
+  message='Error: strict mode violation: locator("xpath=//div[text()='Economy']") resolved to 50 elements:
+    1) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("06:15FRA0 stops07:10MUCFrom Frankfurt International to Munich InternationalDepar")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 438.44 Expand fare list."))
+    2) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("07:15FRA0 stops08:10MUCFrom Frankfurt International to Munich InternationalDepar")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 438.44 Expand fare list."))
+    3) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("07:19FRA0 stops10:20ZMUFrom Frankfurt International to Hbf Railway StationDepart")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 197.00 Expand fare list."))
+    4) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("08:00FRA0 stops09:00MUCFrom Frankfurt International to Munich InternationalDepar")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 438.44 Expand fare list."))
+    5) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("08:00FRA0 stops09:30MUCFrom Frankfurt International to Munich InternationalDepar")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 438.44 Expand fare list."))
+    6) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("[id=\"\\35 01453ee-b115-4a0f-8e56-560133292cef-flightCard\"]").getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 438.44 Expand fare list."))
+    7) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("09:00FRA0 stops10:30MUCFrom Frankfurt International to Munich InternationalDepar")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 371.44 Expand fare list."))
+    8) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("09:15FRA0 stops10:10MUCFrom Frankfurt International to Munich InternationalDepar")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 371.44 Expand fare list."))
+    9) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("10:00FRA0 stops10:50MUCFrom Frankfurt International to Munich InternationalDepar")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 371.44 Expand fare list."))
+    10) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("10:00FRA0 stops11:00MUCFrom Frankfurt International to Munich InternationalDepar")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 371.44 Expand fare list."))
+    ...
+
+=========================== logs ===========================
+waiting for locator("xpath=//div[text()='Economy']")
+============================================================
+  name='Error
+  stack='Error: Error: strict mode violation: locator("xpath=//div[text()='Economy']") resolved to 50 elements:
+    1) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("06:15FRA0 stops07:10MUCFrom Frankfurt International to Munich InternationalDepar")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 438.44 Expand fare list."))
+    2) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("07:15FRA0 stops08:10MUCFrom Frankfurt International to Munich InternationalDepar")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 438.44 Expand fare list."))
+    3) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("07:19FRA0 stops10:20ZMUFrom Frankfurt International to Hbf Railway StationDepart")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 197.00 Expand fare list."))
+    4) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("08:00FRA0 stops09:00MUCFrom Frankfurt International to Munich InternationalDepar")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 438.44 Expand fare list."))
+    5) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("08:00FRA0 stops09:30MUCFrom Frankfurt International to Munich InternationalDepar")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 438.44 Expand fare list."))
+    6) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("[id=\"\\35 01453ee-b115-4a0f-8e56-560133292cef-flightCard\"]").getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 438.44 Expand fare list."))
+    7) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("09:00FRA0 stops10:30MUCFrom Frankfurt International to Munich InternationalDepar")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 371.44 Expand fare list."))
+    8) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("09:15FRA0 stops10:10MUCFrom Frankfurt International to Munich InternationalDepar")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 371.44 Expand fare list."))
+    9) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("10:00FRA0 stops10:50MUCFrom Frankfurt International to Munich InternationalDepar")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 371.44 Expand fare list."))
+    10) <div class="refx-fare-family-flight-card-name">Economy</div> aka locator("refx-basic-flight-card-layout").filter(new Locator.FilterOptions().setHasText("10:00FRA0 stops11:00MUCFrom Frankfurt International to Munich InternationalDepar")).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Economy from EUR 371.44 Expand fare list."))
+    ...
+
+=========================== logs ===========================
+waiting for locator("xpath=//div[text()='Economy']")
+============================================================
+    at CRExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-1879496866902519847\package\lib\server\chromium\crExecutionContext.js:92:33)
+    at async ScopedRace._race (C:\Users\Admin\AppData\Local\Temp\playwright-java-1879496866902519847\package\lib\utils\manualPromise.js:80:14)
+    at async evaluateExpression (C:\Users\Admin\AppData\Local\Temp\playwright-java-1879496866902519847\package\lib\server\javascript.js:218:12)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-1879496866902519847\package\lib\server\frames.js:937:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\Admin\AppData\Local\Temp\playwright-java-1879496866902519847\package\lib\server\frames.js:908:24)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-1879496866902519847\package\lib\server\frames.js:992:29
+    at async ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-1879496866902519847\package\lib\server\progress.js:92:22)
+    at async FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-1879496866902519847\package\lib\server\dispatchers\frameDispatcher.js:149:12)
+    at async DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-1879496866902519847\package\lib\server\dispatchers\dispatcher.js:312:22)
+}

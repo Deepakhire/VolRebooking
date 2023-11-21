@@ -1,0 +1,26 @@
+2023-10-25 13:25:55.736INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-25 13:25:55.748INFO - Test Start Time: 2023-10-25T13:25:55+05:30
+2023-10-25 13:26:00.577INFO - Executing : user_launches_web_application
+2023-10-25 13:26:34.621INFO - Executing : user_enters_credential_in_login_page
+2023-10-25 13:28:50.210ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//div[@id='4be5cf68-f866-47c4-8cb8-d85c7645878a-flightCardeco-buttonLabel']//div[@class='flight-price-section']").first()
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//div[@id='4be5cf68-f866-47c4-8cb8-d85c7645878a-flightCardeco-buttonLabel']//div[@class='flight-price-section']").first()
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-3723362975909282043\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-3723362975909282043\package\lib\server\frames.js:991:23)
+    at FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-3723362975909282043\package\lib\server\dispatchers\frameDispatcher.js:149:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-3723362975909282043\package\lib\server\dispatchers\dispatcher.js:312:46)
+}
+2023-10-25 13:29:09.124INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Wed_Oct_25_13_29_09_IST_2023/', outputName='CucumberResultsOverview_LH_Wed_Oct_25_13_29_09_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-10-25 13:29:09.428INFO - Generating DetailedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Wed_Oct_25_13_29_09_IST_2023\CucumberResultsOverview_LH_Wed_Oct_25_13_29_09_IST_2023-feature-overview.html
+2023-10-25 13:29:09.430INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Wed_Oct_25_13_29_09_IST_2023/', outputName='CucumberDetailedResults_LH_Wed_Oct_25_13_29_09_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}
+2023-10-25 13:29:09.472INFO - Generating DetailedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Wed_Oct_25_13_29_09_IST_2023\CucumberDetailedResults_LH_Wed_Oct_25_13_29_09_IST_2023-test-results.html
+2023-10-25 13:29:09.474INFO - Generating OverviewDetailedCombinedReport startedOverviewDetailedCombinedReport{targetDirectoryPath='./Reports/LH_Wed_Oct_25_13_29_09_IST_2023/', outputName='OverviewDetailedReport_LH_Wed_Oct_25_13_29_09_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', itemInfos=[com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@6df7988f, com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@27b22f74]}
+2023-10-25 13:29:09.508INFO - Generating OverviewDetailedCombinedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Wed_Oct_25_13_29_09_IST_2023\OverviewDetailedReport_LH_Wed_Oct_25_13_29_09_IST_2023-.html
+2023-10-25 13:29:09.509INFO - .\Reports\LH_Wed_Oct_25_13_29_09_IST_2023\OverviewDetailedReport_LH_Wed_Oct_25_13_29_09_IST_2023-.html

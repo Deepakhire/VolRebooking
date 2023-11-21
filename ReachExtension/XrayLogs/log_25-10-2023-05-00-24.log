@@ -1,0 +1,25 @@
+2023-10-25 17:00:24.147INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-25 17:00:24.152INFO - Test Start Time: 2023-10-25T17:00:24+05:30
+2023-10-25 17:00:35.800INFO - Executing : user_launches_web_application
+2023-10-25 17:01:11.004INFO - Executing : user_enters_credential_in_login_page
+2023-10-25 17:02:50.895ERROR- Error {
+  message='Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//button[@id=\"cm-acceptAll\"]")
+============================================================
+  name='Error
+  stack='Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//button[@id=\"cm-acceptAll\"]")
+============================================================
+    at CRSession.send (C:\Users\Admin\AppData\Local\Temp\playwright-java-9780081837421671211\package\lib\server\chromium\crConnection.js:163:34)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-9780081837421671211\package\lib\server\chromium\crExecutionContext.js:78:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-9780081837421671211\package\lib\server\javascript.js:60:61)
+    at evaluateExpression (C:\Users\Admin\AppData\Local\Temp\playwright-java-9780081837421671211\package\lib\server\javascript.js:218:26)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-9780081837421671211\package\lib\server\frames.js:937:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\Admin\AppData\Local\Temp\playwright-java-9780081837421671211\package\lib\server\frames.js:908:24)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-9780081837421671211\package\lib\server\frames.js:992:29
+    at async ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-9780081837421671211\package\lib\server\progress.js:92:22)
+    at async FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-9780081837421671211\package\lib\server\dispatchers\frameDispatcher.js:149:12)
+    at async DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-9780081837421671211\package\lib\server\dispatchers\dispatcher.js:312:22)
+}

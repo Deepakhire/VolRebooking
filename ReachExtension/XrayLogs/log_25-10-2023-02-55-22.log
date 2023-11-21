@@ -1,0 +1,19 @@
+2023-10-25 14:55:22.225INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-25 14:55:22.230INFO - Test Start Time: 2023-10-25T14:55:22+05:30
+2023-10-25 14:55:33.491INFO - Executing : user_launches_web_application
+2023-10-25 14:56:09.668INFO - Executing : user_enters_credential_in_login_page
+2023-10-25 14:59:35.695ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//input[@placeholder='Your first name']")
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//input[@placeholder='Your first name']")
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-6632704509934188087\package\lib\server\progress.js:88:26)
+    at Frame.fill (C:\Users\Admin\AppData\Local\Temp\playwright-java-6632704509934188087\package\lib\server\frames.js:1035:23)
+    at FrameDispatcher.fill (C:\Users\Admin\AppData\Local\Temp\playwright-java-6632704509934188087\package\lib\server\dispatchers\frameDispatcher.js:161:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-6632704509934188087\package\lib\server\dispatchers\dispatcher.js:312:46)
+}

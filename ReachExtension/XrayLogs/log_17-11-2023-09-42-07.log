@@ -1,0 +1,21 @@
+2023-11-17 09:42:07.296INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-17 09:42:07.403INFO - Test Start Time: 2023-11-17T09:42:07+05:30
+2023-11-17 09:42:15.682INFO - Executing : user_launches_web_application
+2023-11-17 09:42:49.917INFO - Executing : user_enters_credential_in_login_page
+2023-11-17 09:45:30.481ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//button[@id='selectFare-BFEUM2NC0E']//span[contains(text(),'Select')]").first()
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//button[@id='selectFare-BFEUM2NC0E']//span[contains(text(),'Select')]").first()
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-779709640474563853\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-779709640474563853\package\lib\server\frames.js:991:23)
+    at FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-779709640474563853\package\lib\server\dispatchers\frameDispatcher.js:149:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-779709640474563853\package\lib\server\dispatchers\dispatcher.js:312:46)
+}
+2023-11-17 09:45:32.488WARN - objectKey is missing from the object Repository for : Manage_Booking_RefX
+2023-11-17 09:45:32.489ERROR- objectKey is missing from the object Repository for : Manage_Booking_RefX

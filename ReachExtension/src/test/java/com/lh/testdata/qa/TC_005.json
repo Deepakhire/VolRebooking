@@ -1,0 +1,29 @@
+{
+  "TC_005":
+  {
+    "Rebooking_LH_ManageBooking":
+    {
+      "credential": "username,organization,amadeus_Pwd",
+      "username": "u102542",
+      "organization": "LH",
+      "amadeus_Pwd": "qZ2JK0aq8Wf&",
+      "origin_city": "FRA",
+      "destination_city": "JFK",
+      "adults": "1",
+      "firstName": "Test",
+      "lastName": "User",
+      "emailAddress": "test@yopmail.com",
+      "record_locator": "VQCOE8",
+      "countryCode": "Germany",
+      "phoneNumber": "1234567899",
+      "Paypal_mail": "amadeus@test.com",
+      "Paypal_password": " c#Ag?d2Es3Us",
+      "AMEX_card_number":"340000000001098",
+      "AMEX_cardholder_name": "Adult Test user",
+      "AMEX_card_expiry": "06/26",
+      "AMEX_card_cvv": "123",
+      "AMEX_billing_address": "Frankfurt"
+
+    }
+  }
+}

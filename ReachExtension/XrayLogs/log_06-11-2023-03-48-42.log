@@ -1,0 +1,27 @@
+2023-11-06 15:48:42.582INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-06 15:48:42.686INFO - Test Start Time: 2023-11-06T15:48:42+05:30
+2023-11-06 15:48:51.483INFO - Executing : user_launches_web_application
+2023-11-06 15:49:24.938INFO - Executing : user_enters_credential_in_login_page
+2023-11-06 15:53:30.374ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//span[text()=' 30 ']")
+  locator resolved to <span class="mat-calendar-body-cell-content mat-focus-…> 30 </span>
+attempting click action
+  waiting for element to be visible, enabled and stable
+    element is not enabled - waiting...
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//span[text()=' 30 ']")
+  locator resolved to <span class="mat-calendar-body-cell-content mat-focus-…> 30 </span>
+attempting click action
+  waiting for element to be visible, enabled and stable
+    element is not enabled - waiting...
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-3454512113129453748\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-3454512113129453748\package\lib\server\frames.js:991:23)
+    at FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-3454512113129453748\package\lib\server\dispatchers\frameDispatcher.js:149:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-3454512113129453748\package\lib\server\dispatchers\dispatcher.js:312:46)
+}

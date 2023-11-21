@@ -1,0 +1,6 @@
+2023-10-18 18:27:30.470INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-18 18:27:30.479INFO - Test Start Time: 2023-10-18T18:27:30+05:30
+2023-10-18 18:27:44.364INFO - Executing : user_launches_web_application
+2023-10-18 18:28:30.220INFO - Executing : user_enters_credential_in_login_page
+2023-10-18 18:30:34.190ERROR- Timeout 30000ms exceeded
+2023-10-18 18:31:28.704INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Wed_Oct_18_18_31_28_IST_2023/', outputName='CucumberResultsOverview_LH_Wed_Oct_18_18_31_28_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}

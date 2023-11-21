@@ -1,0 +1,46 @@
+2023-11-21 09:48:52.886INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-21 09:48:53.102INFO - Test Start Time: 2023-11-21T09:48:53+05:30
+2023-11-21 09:49:08.449INFO - Executing : user_launches_web_application
+2023-11-21 09:49:49.397INFO - Executing : user_enters_credential_in_login_page
+2023-11-21 09:52:47.127ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//span[contains(text(),'Continue to payment')]").first()
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//span[contains(text(),'Continue to payment')]").first()
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-6175882114694111006\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-6175882114694111006\package\lib\server\frames.js:991:23)
+    at FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-6175882114694111006\package\lib\server\dispatchers\frameDispatcher.js:149:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-6175882114694111006\package\lib\server\dispatchers\dispatcher.js:312:46)
+}
+2023-11-21 09:53:41.708ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//span[text()='Add extra bags']")
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//span[text()='Add extra bags']")
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-6175882114694111006\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-6175882114694111006\package\lib\server\frames.js:991:23)
+    at FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-6175882114694111006\package\lib\server\dispatchers\frameDispatcher.js:149:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-6175882114694111006\package\lib\server\dispatchers\dispatcher.js:312:46)
+}
+2023-11-21 09:54:10.096INFO - Executing : user_launches_web_application
+2023-11-21 09:54:45.641INFO - Executing : user_enters_credential_in_login_page
+2023-11-21 09:55:47.403ERROR- unable to find element : Checkbox. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-6175882114694111006\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-6175882114694111006\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-6175882114694111006\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-11-21 09:55:47.403ERROR- Page source on failure : 

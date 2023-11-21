@@ -1,0 +1,143 @@
+2023-10-16 13:32:14.709INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-16 13:32:14.716INFO - Test Start Time: 2023-10-16T13:32:14+05:30
+2023-10-16 13:32:24.701INFO - Executing : user_launches_web_application
+2023-10-16 13:32:58.935INFO - Executing : user_enters_credential_in_login_page
+2023-10-16 13:35:22.448ERROR- Timeout 30000ms exceeded
+2023-10-16 13:35:49.760ERROR- unable to find element : Enter_Passenger_Details. Error {
+  message='Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//span[@class='ng-star-inserted' and text()='Enter passenger details']")
+============================================================
+  name='Error
+  stack='Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//span[@class='ng-star-inserted' and text()='Enter passenger details']")
+============================================================
+    at CRSession.send (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\chromium\crConnection.js:163:34)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\chromium\crExecutionContext.js:78:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\javascript.js:60:61)
+    at evaluateExpression (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\javascript.js:218:26)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\frames.js:635:24
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\frames.js:908:24)
+    at async ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\progress.js:92:22)
+    at async FrameDispatcher.waitForSelector (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\dispatchers\frameDispatcher.js:98:99)
+    at async DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\dispatchers\dispatcher.js:312:22)
+}
+2023-10-16 13:35:49.785ERROR- Page source on failure : 
+2023-10-16 13:35:51.899ERROR- unable to find element : Title. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-16 13:35:51.901ERROR- Page source on failure : 
+2023-10-16 13:35:54.011ERROR- unable to find element : MrOption. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-16 13:35:54.011ERROR- Page source on failure : 
+2023-10-16 13:35:54.027ERROR- unable to find element : First_Name. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-16 13:35:54.028ERROR- Page source on failure : 
+2023-10-16 13:35:56.116ERROR- unable to find element : Last_Name. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-16 13:35:56.116ERROR- Page source on failure : 
+2023-10-16 13:35:56.122ERROR- unable to find element : Email. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-16 13:35:56.123ERROR- Page source on failure : 
+2023-10-16 13:35:56.132ERROR- unable to find element : Country_Calling_Code. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-16 13:35:56.133ERROR- Page source on failure : 
+2023-10-16 13:35:56.144ERROR- unable to find element : Phone_Number. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-16 13:35:56.144ERROR- Page source on failure : 
+2023-10-16 13:35:58.162ERROR- unable to find element : Confirm. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-16 13:35:58.163ERROR- Page source on failure : 
+2023-10-16 13:36:00.182ERROR- unable to find element : Continue_to_Payment. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-16 13:36:00.182ERROR- Page source on failure : 
+2023-10-16 13:36:02.199ERROR- unable to find element : credit/debit_card. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-16 13:36:02.202ERROR- Page source on failure : 
+2023-10-16 13:36:04.218ERROR- unable to find element : card_type. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-12463605081738584788\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-16 13:36:04.219ERROR- Page source on failure : 
+2023-10-16 13:36:29.967INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Mon_Oct_16_13_36_29_IST_2023/', outputName='CucumberResultsOverview_LH_Mon_Oct_16_13_36_29_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-10-16 13:36:30.548INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\ReachExtension\Reports\LH_Mon_Oct_16_13_36_29_IST_2023\CucumberResultsOverview_LH_Mon_Oct_16_13_36_29_IST_2023-feature-overview.html
+2023-10-16 13:36:30.549INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Mon_Oct_16_13_36_29_IST_2023/', outputName='CucumberDetailedResults_LH_Mon_Oct_16_13_36_29_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}
+2023-10-16 13:36:30.765INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\ReachExtension\Reports\LH_Mon_Oct_16_13_36_29_IST_2023\CucumberDetailedResults_LH_Mon_Oct_16_13_36_29_IST_2023-test-results.html
+2023-10-16 13:36:30.767INFO - Generating OverviewDetailedCombinedReport startedOverviewDetailedCombinedReport{targetDirectoryPath='./Reports/LH_Mon_Oct_16_13_36_29_IST_2023/', outputName='OverviewDetailedReport_LH_Mon_Oct_16_13_36_29_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', itemInfos=[com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@2c58dcb1, com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@67fc2aad]}
+2023-10-16 13:36:30.877INFO - Generating OverviewDetailedCombinedReport completed C:\Users\Admin\OneDrive\Desktop\ReachExtension\Reports\LH_Mon_Oct_16_13_36_29_IST_2023\OverviewDetailedReport_LH_Mon_Oct_16_13_36_29_IST_2023-.html
+2023-10-16 13:36:30.877INFO - .\Reports\LH_Mon_Oct_16_13_36_29_IST_2023\OverviewDetailedReport_LH_Mon_Oct_16_13_36_29_IST_2023-.html

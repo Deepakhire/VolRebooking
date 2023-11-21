@@ -1,0 +1,6 @@
+2023-11-16 12:10:30.931INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-16 12:10:31.050INFO - Test Start Time: 2023-11-16T12:10:31+05:30
+2023-11-16 12:10:40.621INFO - Executing : user_launches_web_application
+2023-11-16 12:11:15.669INFO - Executing : user_enters_credential_in_login_page
+2023-11-16 12:11:15.689ERROR- OS_merged .json file not found. dataKey = credentialException: java.io.FileNotFoundException: .\src\test\java\com\lh\testdata\qa\OS_merged.json (The system cannot find the file specified)
+2023-11-16 12:11:21.810INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Thu_Nov_16_12_11_21_IST_2023/', outputName='CucumberResultsOverview_LH_Thu_Nov_16_12_11_21_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}

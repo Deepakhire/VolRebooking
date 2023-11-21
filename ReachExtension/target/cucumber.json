@@ -1,0 +1,427 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7841743300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 95,
+        "name": "PNR_Flow",
+        "description": "",
+        "id": "pnr-flow;\u003ctestcase\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 99544517200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32547697700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launches \"Amadeus\" web application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amadeus\"",
+                  "offset": 14
+                }
+              ],
+              "location": "GenericSteps.user_launches_web_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32646536600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"credential\" in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"credential\"",
+                  "offset": 12
+                }
+              ],
+              "location": "GenericSteps.user_enters_credential_in_login_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2180688100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on \"Round_Trip\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Round_Trip\"",
+                  "offset": 15
+                }
+              ],
+              "location": "GenericSteps.user_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1173545200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"origin_city\" in \"Origin_City\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"origin_city\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Origin_City\"",
+                  "offset": 29
+                }
+              ],
+              "location": "GenericSteps.user_enters_data_in_text_field(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2247742100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on \"Ocity\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ocity\"",
+                  "offset": 15
+                }
+              ],
+              "location": "GenericSteps.user_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 895778100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters \"destination_city\" in \"Destination_City\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"destination_city\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Destination_City\"",
+                  "offset": 34
+                }
+              ],
+              "location": "GenericSteps.user_enters_data_in_text_field(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2393830100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on \"Dcity\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dcity\"",
+                  "offset": 15
+                }
+              ],
+              "location": "GenericSteps.user_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2634096900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on \"Departure_Date\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Departure_Date\"",
+                  "offset": 15
+                }
+              ],
+              "location": "GenericSteps.user_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2210473800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on \"date\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"date\"",
+                  "offset": 15
+                }
+              ],
+              "location": "GenericSteps.user_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2732182500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on \"Return_Date\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Return_Date\"",
+                  "offset": 15
+                }
+              ],
+              "location": "GenericSteps.user_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2263619800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on \"Date\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Date\"",
+                  "offset": 15
+                }
+              ],
+              "location": "GenericSteps.user_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178216500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters \"children\" in \"Children\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"children\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Children\"",
+                  "offset": 26
+                }
+              ],
+              "location": "GenericSteps.user_enters_data_in_text_field(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2121142900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on \"Checkbox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Checkbox\"",
+                  "offset": 15
+                }
+              ],
+              "location": "GenericSteps.user_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281860316200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User handles Privacy Settings Page and proceed with LH booking",
+            "match": {
+              "location": "GenericSteps.User_handle_Privacy_Settings_Page_002()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2260656000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User clicks on \"Manage_Booking_RefX\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manage_Booking_RefX\"",
+                  "offset": 15
+                }
+              ],
+              "location": "GenericSteps.user_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2084885300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks on \"Manage_Booking_RefX\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manage_Booking_RefX\"",
+                  "offset": 15
+                }
+              ],
+              "location": "GenericSteps.user_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220589600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User enters \"record_locator\" in \"Record_Locator\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"record_locator\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Record_Locator\"",
+                  "offset": 32
+                }
+              ],
+              "location": "GenericSteps.user_enters_data_in_text_field(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190671800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User enters \"last_name\" in \"last_Name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"last_name\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"last_Name\"",
+                  "offset": 27
+                }
+              ],
+              "location": "GenericSteps.user_enters_data_in_text_field(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2118266700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User clicks on \"check_box\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"check_box\"",
+                  "offset": 15
+                }
+              ],
+              "location": "GenericSteps.user_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52868944800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User handles Privacy Setting Page and proceed with LH rebooking",
+            "match": {
+              "location": "GenericSteps.User_handle_Privacy_Settings_Page_002RB()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC02"
+          }
+        ]
+      }
+    ],
+    "name": "PNR_Flow",
+    "description": "",
+    "id": "pnr-flow",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/lh/features/TC_002.feature",
+    "tags": [
+      {
+        "name": "@TC02",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

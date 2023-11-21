@@ -1,0 +1,31 @@
+2023-10-26 12:46:58.233INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-26 12:46:58.335INFO - Test Start Time: 2023-10-26T12:46:58+05:30
+2023-10-26 12:47:06.290INFO - Executing : user_launches_web_application
+2023-10-26 12:47:46.636INFO - Executing : user_enters_credential_in_login_page
+2023-10-26 12:54:07.023ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//label[contains(text(),'Credit')]/..//input[@id='radio_1']").first()
+  locator resolved to <input type="radio" id="radio_1" name="radios" class="m…/>
+attempting click action
+  waiting for element to be visible, enabled and stable
+  element is visible, enabled and stable
+  scrolling into view if needed
+  done scrolling
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//label[contains(text(),'Credit')]/..//input[@id='radio_1']").first()
+  locator resolved to <input type="radio" id="radio_1" name="radios" class="m…/>
+attempting click action
+  waiting for element to be visible, enabled and stable
+  element is visible, enabled and stable
+  scrolling into view if needed
+  done scrolling
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-6631396944199373892\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-6631396944199373892\package\lib\server\frames.js:991:23)
+    at FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-6631396944199373892\package\lib\server\dispatchers\frameDispatcher.js:149:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-6631396944199373892\package\lib\server\dispatchers\dispatcher.js:312:46)
+}

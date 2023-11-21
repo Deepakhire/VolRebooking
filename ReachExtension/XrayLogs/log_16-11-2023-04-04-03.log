@@ -1,0 +1,40 @@
+2023-11-16 16:04:03.608INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-16 16:04:03.716INFO - Test Start Time: 2023-11-16T16:04:03+05:30
+2023-11-16 16:04:13.239INFO - Executing : user_launches_web_application
+2023-11-16 16:04:46.135INFO - Executing : user_enters_credential_in_login_page
+2023-11-16 16:08:19.752ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//label[contains(text(),'Credit')]/..//input[@id='radio_1']").first()
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//label[contains(text(),'Credit')]/..//input[@id='radio_1']").first()
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-7124569274393917254\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-7124569274393917254\package\lib\server\frames.js:991:23)
+    at FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-7124569274393917254\package\lib\server\dispatchers\frameDispatcher.js:149:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-7124569274393917254\package\lib\server\dispatchers\dispatcher.js:312:46)
+}
+2023-11-16 16:09:23.325ERROR- unable to find element : last_Name. Error {
+  message='Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//input[@id=\"lastName\"]")
+============================================================
+  name='Error
+  stack='Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//input[@id=\"lastName\"]")
+============================================================
+    at CRSession.send (C:\Users\Admin\AppData\Local\Temp\playwright-java-7124569274393917254\package\lib\server\chromium\crConnection.js:163:34)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-7124569274393917254\package\lib\server\chromium\crExecutionContext.js:78:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-7124569274393917254\package\lib\server\javascript.js:60:61)
+    at evaluateExpression (C:\Users\Admin\AppData\Local\Temp\playwright-java-7124569274393917254\package\lib\server\javascript.js:218:26)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-7124569274393917254\package\lib\server\frames.js:635:24
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\Admin\AppData\Local\Temp\playwright-java-7124569274393917254\package\lib\server\frames.js:908:24)
+    at async ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-7124569274393917254\package\lib\server\progress.js:92:22)
+    at async FrameDispatcher.waitForSelector (C:\Users\Admin\AppData\Local\Temp\playwright-java-7124569274393917254\package\lib\server\dispatchers\frameDispatcher.js:98:99)
+    at async DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-7124569274393917254\package\lib\server\dispatchers\dispatcher.js:312:22)
+}
+2023-11-16 16:09:23.333ERROR- Page source on failure : 

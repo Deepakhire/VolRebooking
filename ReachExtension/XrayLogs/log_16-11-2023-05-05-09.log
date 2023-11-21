@@ -1,0 +1,14 @@
+2023-11-16 17:05:09.134INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-16 17:05:09.240INFO - Test Start Time: 2023-11-16T17:05:09+05:30
+2023-11-16 17:05:16.725INFO - Executing : user_launches_web_application
+2023-11-16 17:05:32.258INFO - Executing : user_enters_credential_in_login_page
+2023-11-16 17:05:32.337ERROR- unable to find element : username. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-2496132775773116476\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-2496132775773116476\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-2496132775773116476\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-11-16 17:05:32.343ERROR- Page source on failure : 

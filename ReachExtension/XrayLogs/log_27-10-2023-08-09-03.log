@@ -1,0 +1,43 @@
+2023-10-27 20:09:03.721INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-27 20:09:03.825INFO - Test Start Time: 2023-10-27T20:09:03+05:30
+2023-10-27 20:09:13.317INFO - Executing : user_launches_web_application
+2023-10-27 20:09:49.996INFO - Executing : user_enters_credential_in_login_page
+2023-10-27 20:12:37.045ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//div[text()='Economy']").first()
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//div[text()='Economy']").first()
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-527820856420647673\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-527820856420647673\package\lib\server\frames.js:991:23)
+    at FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-527820856420647673\package\lib\server\dispatchers\frameDispatcher.js:149:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-527820856420647673\package\lib\server\dispatchers\dispatcher.js:312:46)
+}
+2023-10-27 20:12:39.711ERROR- Error {
+  message='Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://uat.digital.airline.amadeus.com/1a/agate/picker", waiting until "load"
+============================================================
+  name='Error
+  stack='Error: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://uat.digital.airline.amadeus.com/1a/agate/picker", waiting until "load"
+============================================================
+    at C:\Users\Admin\AppData\Local\Temp\playwright-java-527820856420647673\package\lib\server\frames.js:490:13
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:447:9)
+    at async ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-527820856420647673\package\lib\server\progress.js:92:22)
+    at async FrameDispatcher.goto (C:\Users\Admin\AppData\Local\Temp\playwright-java-527820856420647673\package\lib\server\dispatchers\frameDispatcher.js:75:103)
+    at async DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-527820856420647673\package\lib\server\dispatchers\dispatcher.js:312:22)
+}
+2023-10-27 20:13:15.734INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Fri_Oct_27_20_13_15_IST_2023/', outputName='CucumberResultsOverview_LH_Fri_Oct_27_20_13_15_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-10-27 20:13:16.758INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Fri_Oct_27_20_13_15_IST_2023\CucumberResultsOverview_LH_Fri_Oct_27_20_13_15_IST_2023-feature-overview.html
+2023-10-27 20:13:16.760INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Fri_Oct_27_20_13_15_IST_2023/', outputName='CucumberDetailedResults_LH_Fri_Oct_27_20_13_15_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}
+2023-10-27 20:13:16.874INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Fri_Oct_27_20_13_15_IST_2023\CucumberDetailedResults_LH_Fri_Oct_27_20_13_15_IST_2023-test-results.html
+2023-10-27 20:13:16.880INFO - Generating OverviewDetailedCombinedReport startedOverviewDetailedCombinedReport{targetDirectoryPath='./Reports/LH_Fri_Oct_27_20_13_15_IST_2023/', outputName='OverviewDetailedReport_LH_Fri_Oct_27_20_13_15_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', itemInfos=[com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@38be305c, com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@269f4bad]}
+2023-10-27 20:13:16.990INFO - Generating OverviewDetailedCombinedReport completed C:\Users\Admin\OneDrive\Desktop\New folder\ReachExtension\Reports\LH_Fri_Oct_27_20_13_15_IST_2023\OverviewDetailedReport_LH_Fri_Oct_27_20_13_15_IST_2023-.html
+2023-10-27 20:13:16.990INFO - .\Reports\LH_Fri_Oct_27_20_13_15_IST_2023\OverviewDetailedReport_LH_Fri_Oct_27_20_13_15_IST_2023-.html

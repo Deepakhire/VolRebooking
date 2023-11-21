@@ -1,0 +1,25 @@
+2023-11-20 11:09:53.946INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-20 11:09:54.074INFO - Test Start Time: 2023-11-20T11:09:54+05:30
+2023-11-20 11:10:03.186INFO - Executing : user_launches_web_application
+2023-11-20 11:10:17.543INFO - Executing : user_enters_credential_in_login_page
+2023-11-20 11:10:28.199ERROR- unable to find element : username. Error {
+  message='Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//input[@id='userIdInput']")
+============================================================
+  name='Error
+  stack='Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//input[@id='userIdInput']")
+============================================================
+    at CRSession.send (C:\Users\Admin\AppData\Local\Temp\playwright-java-5873398694035610938\package\lib\server\chromium\crConnection.js:163:34)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-5873398694035610938\package\lib\server\chromium\crExecutionContext.js:78:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-5873398694035610938\package\lib\server\javascript.js:60:61)
+    at evaluateExpression (C:\Users\Admin\AppData\Local\Temp\playwright-java-5873398694035610938\package\lib\server\javascript.js:218:26)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-5873398694035610938\package\lib\server\frames.js:635:24
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\Admin\AppData\Local\Temp\playwright-java-5873398694035610938\package\lib\server\frames.js:908:24)
+    at async ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-5873398694035610938\package\lib\server\progress.js:92:22)
+    at async FrameDispatcher.waitForSelector (C:\Users\Admin\AppData\Local\Temp\playwright-java-5873398694035610938\package\lib\server\dispatchers\frameDispatcher.js:98:99)
+    at async DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-5873398694035610938\package\lib\server\dispatchers\dispatcher.js:312:22)
+}
+2023-11-20 11:10:28.208ERROR- Page source on failure : 

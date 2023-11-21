@@ -1,0 +1,22 @@
+{
+  "LX_TC_003":
+  {
+    "LX_ManageBooking_3":
+    {
+      "credential" : "username,organization,amadeus_Pwd",
+      "username" : "u102542",
+      "organization" : "LH",
+      "amadeus_Pwd" : "bV4Dg8LR",
+      "origin_city": "Vienna",
+      "destination_city": "New-York - John F. Kennedy",
+      "Adults": "1",
+      "firstName": "Test",
+      "lastName": "User",
+      "emailAddress": "test@yopmail.com",
+      "countryCode": "Germany",
+      "phoneNumber": "1234567899",
+      "record_locator": "TXNZG3",
+      "last_name": "User"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+2023-11-20 11:10:42.376INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-20 11:10:42.477INFO - Test Start Time: 2023-11-20T11:10:42+05:30
+2023-11-20 11:10:52.122INFO - Executing : user_launches_web_application
+2023-11-20 11:10:58.666ERROR- Error {
+  message='Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://qa-www.lufthansa.com/de/en/homepage", waiting until "load"
+============================================================
+  name='Error
+  stack='Error: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://qa-www.lufthansa.com/de/en/homepage", waiting until "load"
+============================================================
+    at C:\Users\Admin\AppData\Local\Temp\playwright-java-1866912494855446423\package\lib\server\frames.js:490:13
+    at async ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-1866912494855446423\package\lib\server\progress.js:92:22)
+    at async FrameDispatcher.goto (C:\Users\Admin\AppData\Local\Temp\playwright-java-1866912494855446423\package\lib\server\dispatchers\frameDispatcher.js:75:103)
+    at async DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-1866912494855446423\package\lib\server\dispatchers\dispatcher.js:312:22)
+}
+2023-11-20 11:10:58.668INFO - Executing : user_enters_credential_in_login_page

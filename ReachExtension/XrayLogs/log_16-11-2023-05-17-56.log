@@ -1,0 +1,6 @@
+2023-11-16 17:17:56.861INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-16 17:17:56.996INFO - Test Start Time: 2023-11-16T17:17:56+05:30
+2023-11-16 17:18:07.162INFO - Executing : user_launches_web_application
+2023-11-16 17:18:40.557INFO - Executing : user_enters_credential_in_login_page
+2023-11-16 17:24:22.859WARN - objectKey is missing from the object Repository for : Manage_Booking_Refx
+2023-11-16 17:24:22.859ERROR- objectKey is missing from the object Repository for : Manage_Booking_Refx

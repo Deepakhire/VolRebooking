@@ -1,0 +1,6 @@
+2023-11-21 10:02:10.018INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-21 10:02:10.120INFO - Test Start Time: 2023-11-21T10:02:10+05:30
+2023-11-21 10:02:20.732INFO - Executing : user_launches_web_application
+2023-11-21 10:02:56.932INFO - Executing : user_enters_credential_in_login_page
+2023-11-21 10:04:34.075ERROR- Timeout 30000ms exceeded
+2023-11-21 10:05:02.789ERROR- Page closed

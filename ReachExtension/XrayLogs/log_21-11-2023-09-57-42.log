@@ -1,0 +1,26 @@
+2023-11-21 09:57:42.604INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-21 09:57:42.709INFO - Test Start Time: 2023-11-21T09:57:42+05:30
+2023-11-21 09:57:53.181INFO - Executing : user_launches_web_application
+2023-11-21 09:58:27.963INFO - Executing : user_enters_credential_in_login_page
+2023-11-21 10:00:03.937ERROR- Timeout 30000ms exceeded
+2023-11-21 10:01:10.248ERROR- Error {
+  message='Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//span[text()='Add extra bags']")
+============================================================
+  name='Error
+  stack='Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//span[text()='Add extra bags']")
+============================================================
+    at CRSession.send (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666292766956228692\package\lib\server\chromium\crConnection.js:163:34)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666292766956228692\package\lib\server\chromium\crExecutionContext.js:78:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666292766956228692\package\lib\server\javascript.js:60:61)
+    at evaluateExpression (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666292766956228692\package\lib\server\javascript.js:218:26)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-3666292766956228692\package\lib\server\frames.js:937:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666292766956228692\package\lib\server\frames.js:908:24)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-3666292766956228692\package\lib\server\frames.js:992:29
+    at async ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666292766956228692\package\lib\server\progress.js:92:22)
+    at async FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666292766956228692\package\lib\server\dispatchers\frameDispatcher.js:149:12)
+    at async DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666292766956228692\package\lib\server\dispatchers\dispatcher.js:312:22)
+}

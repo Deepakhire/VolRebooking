@@ -1,0 +1,27 @@
+2023-11-07 13:53:43.012INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-07 13:53:43.136INFO - Test Start Time: 2023-11-07T13:53:43+05:30
+2023-11-07 13:53:54.005INFO - Executing : user_launches_web_application
+2023-11-07 13:54:31.862INFO - Executing : user_enters_credential_in_login_page
+2023-11-07 13:56:34.989ERROR- Timeout 30000ms exceeded
+2023-11-07 13:57:51.271ERROR- Error: Timeout 30000ms exceeded
+2023-11-07 13:58:09.942ERROR- unable to find element : Rebook_Date. Error {
+  message='Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//input[@placeholder='dd/mm/yyyy']")
+============================================================
+  name='Error
+  stack='Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//input[@placeholder='dd/mm/yyyy']")
+============================================================
+    at CRSession.send (C:\Users\Admin\AppData\Local\Temp\playwright-java-3036750818957662140\package\lib\server\chromium\crConnection.js:163:34)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-3036750818957662140\package\lib\server\chromium\crExecutionContext.js:78:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-3036750818957662140\package\lib\server\javascript.js:60:61)
+    at evaluateExpression (C:\Users\Admin\AppData\Local\Temp\playwright-java-3036750818957662140\package\lib\server\javascript.js:218:26)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-3036750818957662140\package\lib\server\frames.js:635:24
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\Admin\AppData\Local\Temp\playwright-java-3036750818957662140\package\lib\server\frames.js:908:24)
+    at async ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-3036750818957662140\package\lib\server\progress.js:92:22)
+    at async FrameDispatcher.waitForSelector (C:\Users\Admin\AppData\Local\Temp\playwright-java-3036750818957662140\package\lib\server\dispatchers\frameDispatcher.js:98:99)
+    at async DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-3036750818957662140\package\lib\server\dispatchers\dispatcher.js:312:22)
+}
+2023-11-07 13:58:09.950ERROR- Page source on failure : 

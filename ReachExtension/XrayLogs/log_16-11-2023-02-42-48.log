@@ -1,0 +1,51 @@
+2023-11-16 14:42:48.661INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-16 14:42:48.773INFO - Test Start Time: 2023-11-16T14:42:48+05:30
+2023-11-16 14:42:59.154INFO - Executing : user_launches_web_application
+2023-11-16 14:43:32.138INFO - Executing : user_enters_credential_in_login_page
+2023-11-16 14:45:46.790ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//span[text()='Enter passenger details']").first()
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//span[text()='Enter passenger details']").first()
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-975041623041264461\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-975041623041264461\package\lib\server\frames.js:991:23)
+    at FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-975041623041264461\package\lib\server\dispatchers\frameDispatcher.js:149:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-975041623041264461\package\lib\server\dispatchers\dispatcher.js:312:46)
+}
+2023-11-16 14:46:54.817ERROR- unable to find element : Record_Locator. Error {
+  message='Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//input[@id=\"recLoc\"]")
+============================================================
+  name='Error
+  stack='Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//input[@id=\"recLoc\"]")
+============================================================
+    at CRSession.send (C:\Users\Admin\AppData\Local\Temp\playwright-java-975041623041264461\package\lib\server\chromium\crConnection.js:163:34)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-975041623041264461\package\lib\server\chromium\crExecutionContext.js:78:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-975041623041264461\package\lib\server\javascript.js:60:61)
+    at evaluateExpression (C:\Users\Admin\AppData\Local\Temp\playwright-java-975041623041264461\package\lib\server\javascript.js:218:26)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:447:9)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-975041623041264461\package\lib\server\frames.js:635:24
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\Admin\AppData\Local\Temp\playwright-java-975041623041264461\package\lib\server\frames.js:908:24)
+    at async ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-975041623041264461\package\lib\server\progress.js:92:22)
+    at async FrameDispatcher.waitForSelector (C:\Users\Admin\AppData\Local\Temp\playwright-java-975041623041264461\package\lib\server\dispatchers\frameDispatcher.js:98:99)
+}
+2023-11-16 14:46:54.817ERROR- Page source on failure : 
+2023-11-16 14:46:57.089ERROR- unable to find element : last_Name. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-975041623041264461\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-975041623041264461\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-975041623041264461\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-11-16 14:46:57.089ERROR- Page source on failure : 

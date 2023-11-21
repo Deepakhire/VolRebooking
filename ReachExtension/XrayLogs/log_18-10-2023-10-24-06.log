@@ -1,0 +1,5 @@
+2023-10-18 10:24:06.864INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-18 10:24:06.893INFO - Test Start Time: 2023-10-18T10:24:06+05:30
+2023-10-18 10:24:17.713INFO - Executing : user_launches_web_application
+2023-10-18 10:24:50.797INFO - Executing : user_enters_credential_in_login_page
+2023-10-18 10:36:25.685ERROR- Cannot invoke "com.microsoft.playwright.ElementHandle.click()" because the return value of "com.microsoft.playwright.Page.querySelector(String)" is null

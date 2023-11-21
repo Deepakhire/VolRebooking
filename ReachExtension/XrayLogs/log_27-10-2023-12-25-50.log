@@ -1,0 +1,29 @@
+2023-10-27 12:25:50.378INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-27 12:25:50.477INFO - Test Start Time: 2023-10-27T12:25:50+05:30
+2023-10-27 12:25:58.055INFO - Executing : user_launches_web_application
+2023-10-27 12:26:32.064INFO - Executing : user_enters_credential_in_login_page
+2023-10-27 12:28:37.159ERROR- Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//button[@id='cm-acceptAll']")
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//button[@id='cm-acceptAll']")
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-2713666628970899904\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-2713666628970899904\package\lib\server\frames.js:991:23)
+    at FrameDispatcher.click (C:\Users\Admin\AppData\Local\Temp\playwright-java-2713666628970899904\package\lib\server\dispatchers\frameDispatcher.js:149:30)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-2713666628970899904\package\lib\server\dispatchers\dispatcher.js:312:46)
+}
+2023-10-27 12:29:04.883ERROR- unable to find element : Tenant. Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-2713666628970899904\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-2713666628970899904\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-2713666628970899904\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}
+2023-10-27 12:29:04.883ERROR- Page source on failure : 

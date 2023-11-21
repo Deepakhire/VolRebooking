@@ -1,0 +1,25 @@
+2023-10-17 21:37:31.076INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-17 21:37:31.101INFO - Test Start Time: 2023-10-17T21:37:31+05:30
+2023-10-17 21:37:40.984INFO - Executing : user_launches_web_application
+2023-10-17 21:38:16.981INFO - Executing : user_enters_credential_in_login_page
+2023-10-17 21:53:08.099ERROR- Error {
+  message='Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//label[contains(text(),'Credit')]/..//input[@id='radio_1']").first()
+============================================================
+  name='Error
+  stack='Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//label[contains(text(),'Credit')]/..//input[@id='radio_1']").first()
+============================================================
+    at C:\Users\Admin\AppData\Local\Temp\playwright-java-15900584692089556542\package\lib\server\chromium\crConnection.js:169:16
+    at new Promise (<anonymous>)
+    at CRSession.send (C:\Users\Admin\AppData\Local\Temp\playwright-java-15900584692089556542\package\lib\server\chromium\crConnection.js:165:12)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-15900584692089556542\package\lib\server\chromium\crExecutionContext.js:78:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-15900584692089556542\package\lib\server\javascript.js:60:61)
+    at evaluateExpression (C:\Users\Admin\AppData\Local\Temp\playwright-java-15900584692089556542\package\lib\server\javascript.js:218:26)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-15900584692089556542\package\lib\server\frames.js:937:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\Admin\AppData\Local\Temp\playwright-java-15900584692089556542\package\lib\server\frames.js:908:24)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-15900584692089556542\package\lib\server\frames.js:992:29
+    at async ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-15900584692089556542\package\lib\server\progress.js:92:22)
+}

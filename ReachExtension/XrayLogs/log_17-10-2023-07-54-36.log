@@ -1,0 +1,26 @@
+2023-10-17 19:54:36.886INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-17 19:54:36.895INFO - Test Start Time: 2023-10-17T19:54:36+05:30
+2023-10-17 19:54:46.620INFO - Executing : user_launches_web_application
+2023-10-17 19:55:21.106INFO - Executing : user_enters_credential_in_login_page
+2023-10-17 19:58:59.560ERROR- Error {
+  message='Unexpected token "" while parsing selector ""
+  name='Error
+  stack='Error: Unexpected token "" while parsing selector ""
+    at unexpected (C:\Users\Admin\AppData\Local\Temp\playwright-java-6257993745089520785\package\lib\utils\isomorphic\cssParser.js:62:12)
+    at consumeSimpleSelector (C:\Users\Admin\AppData\Local\Temp\playwright-java-6257993745089520785\package\lib\utils\isomorphic\cssParser.js:199:51)
+    at consumeComplexSelector (C:\Users\Admin\AppData\Local\Temp\playwright-java-6257993745089520785\package\lib\utils\isomorphic\cssParser.js:128:19)
+    at consumeArgument (C:\Users\Admin\AppData\Local\Temp\playwright-java-6257993745089520785\package\lib\utils\isomorphic\cssParser.js:108:12)
+    at consumeFunctionArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-6257993745089520785\package\lib\utils\isomorphic\cssParser.js:95:21)
+    at parseCSS (C:\Users\Admin\AppData\Local\Temp\playwright-java-6257993745089520785\package\lib\utils\isomorphic\cssParser.js:210:18)
+    at C:\Users\Admin\AppData\Local\Temp\playwright-java-6257993745089520785\package\lib\utils\isomorphic\selectorParser.js:50:49
+    at Array.map (<anonymous>)
+    at parseSelector (C:\Users\Admin\AppData\Local\Temp\playwright-java-6257993745089520785\package\lib\utils\isomorphic\selectorParser.js:47:30)
+    at asLocator (C:\Users\Admin\AppData\Local\Temp\playwright-java-6257993745089520785\package\lib\utils\isomorphic\locatorGenerators.js:36:79)
+}
+2023-10-17 20:00:08.998INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Tue_Oct_17_20_00_08_IST_2023/', outputName='CucumberResultsOverview_LH_Tue_Oct_17_20_00_08_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-10-17 20:00:09.800INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\ReachExtension\Reports\LH_Tue_Oct_17_20_00_08_IST_2023\CucumberResultsOverview_LH_Tue_Oct_17_20_00_08_IST_2023-feature-overview.html
+2023-10-17 20:00:09.802INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Tue_Oct_17_20_00_08_IST_2023/', outputName='CucumberDetailedResults_LH_Tue_Oct_17_20_00_08_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}
+2023-10-17 20:00:09.884INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\ReachExtension\Reports\LH_Tue_Oct_17_20_00_08_IST_2023\CucumberDetailedResults_LH_Tue_Oct_17_20_00_08_IST_2023-test-results.html
+2023-10-17 20:00:09.887INFO - Generating OverviewDetailedCombinedReport startedOverviewDetailedCombinedReport{targetDirectoryPath='./Reports/LH_Tue_Oct_17_20_00_08_IST_2023/', outputName='OverviewDetailedReport_LH_Tue_Oct_17_20_00_08_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', itemInfos=[com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@1d782abe, com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@6df7988f]}
+2023-10-17 20:00:09.954INFO - Generating OverviewDetailedCombinedReport completed C:\Users\Admin\OneDrive\Desktop\ReachExtension\Reports\LH_Tue_Oct_17_20_00_08_IST_2023\OverviewDetailedReport_LH_Tue_Oct_17_20_00_08_IST_2023-.html
+2023-10-17 20:00:09.955INFO - .\Reports\LH_Tue_Oct_17_20_00_08_IST_2023\OverviewDetailedReport_LH_Tue_Oct_17_20_00_08_IST_2023-.html

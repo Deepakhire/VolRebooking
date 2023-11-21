@@ -1,0 +1,12 @@
+2023-10-18 11:40:47.252INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-18 11:40:47.292INFO - Test Start Time: 2023-10-18T11:40:47+05:30
+2023-10-18 11:41:02.945INFO - Executing : user_launches_web_application
+2023-10-18 11:41:36.603INFO - Executing : user_enters_credential_in_login_page
+2023-10-18 11:43:41.518ERROR- Timeout 30000ms exceeded
+2023-10-18 11:44:31.972INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Wed_Oct_18_11_44_31_IST_2023/', outputName='CucumberResultsOverview_LH_Wed_Oct_18_11_44_31_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-10-18 11:44:32.795INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\ReachExtension\Reports\LH_Wed_Oct_18_11_44_31_IST_2023\CucumberResultsOverview_LH_Wed_Oct_18_11_44_31_IST_2023-feature-overview.html
+2023-10-18 11:44:32.798INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Wed_Oct_18_11_44_31_IST_2023/', outputName='CucumberDetailedResults_LH_Wed_Oct_18_11_44_31_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}
+2023-10-18 11:44:32.907INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\ReachExtension\Reports\LH_Wed_Oct_18_11_44_31_IST_2023\CucumberDetailedResults_LH_Wed_Oct_18_11_44_31_IST_2023-test-results.html
+2023-10-18 11:44:32.910INFO - Generating OverviewDetailedCombinedReport startedOverviewDetailedCombinedReport{targetDirectoryPath='./Reports/LH_Wed_Oct_18_11_44_31_IST_2023/', outputName='OverviewDetailedReport_LH_Wed_Oct_18_11_44_31_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', itemInfos=[com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@8ff5094, com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@363f0ba0]}
+2023-10-18 11:44:33.002INFO - Generating OverviewDetailedCombinedReport completed C:\Users\Admin\OneDrive\Desktop\ReachExtension\Reports\LH_Wed_Oct_18_11_44_31_IST_2023\OverviewDetailedReport_LH_Wed_Oct_18_11_44_31_IST_2023-.html
+2023-10-18 11:44:33.002INFO - .\Reports\LH_Wed_Oct_18_11_44_31_IST_2023\OverviewDetailedReport_LH_Wed_Oct_18_11_44_31_IST_2023-.html

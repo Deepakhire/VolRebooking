@@ -1,0 +1,34 @@
+2023-11-17 15:52:14.561INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-17 15:52:14.698INFO - Test Start Time: 2023-11-17T15:52:14+05:30
+2023-11-17 15:52:24.729INFO - Executing : user_launches_web_application
+2023-11-17 15:52:58.288INFO - Executing : user_enters_credential_in_login_page
+2023-11-17 15:53:53.674ERROR- unable to find element : amadeus_HomePage. Error {
+  message='Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//span[@class='mdc-button__label']//span[text()='Home']")
+============================================================
+  name='Error
+  stack='Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//span[@class='mdc-button__label']//span[text()='Home']")
+============================================================
+    at CRSession.send (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666562326318683186\package\lib\server\chromium\crConnection.js:163:34)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666562326318683186\package\lib\server\chromium\crExecutionContext.js:78:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666562326318683186\package\lib\server\javascript.js:60:61)
+    at evaluateExpression (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666562326318683186\package\lib\server\javascript.js:218:26)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-3666562326318683186\package\lib\server\frames.js:635:24
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666562326318683186\package\lib\server\frames.js:908:24)
+    at async ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666562326318683186\package\lib\server\progress.js:92:22)
+    at async FrameDispatcher.waitForSelector (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666562326318683186\package\lib\server\dispatchers\frameDispatcher.js:98:99)
+    at async DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666562326318683186\package\lib\server\dispatchers\dispatcher.js:312:22)
+}
+2023-11-17 15:53:53.677ERROR- Page source on failure : 
+2023-11-17 15:53:53.679ERROR- Amadues login process failed.Error {
+  message='Target page, context or browser has been closed
+  name='Error
+  stack='Error: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666562326318683186\package\lib\server\dispatchers\dispatcher.js:226:49)
+    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666562326318683186\package\lib\cli\driver.js:50:57)
+    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-3666562326318683186\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:476:21)
+}

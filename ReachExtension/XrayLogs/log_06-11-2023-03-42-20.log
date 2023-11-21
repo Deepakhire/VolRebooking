@@ -1,0 +1,39 @@
+2023-11-06 15:42:20.865INFO - Log configuration done. Log Dir:./XrayLogs
+2023-11-06 15:42:20.984INFO - Test Start Time: 2023-11-06T15:42:20+05:30
+2023-11-06 15:42:29.951INFO - Executing : user_launches_web_application
+2023-11-06 15:43:03.574INFO - Executing : user_enters_credential_in_login_page
+2023-11-06 15:43:33.603ERROR- unable to find element : username. Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//input[@id='userIdInput']")
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//input[@id='userIdInput']")
+============================================================
+    at ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-5718796721961546678\package\lib\server\progress.js:88:26)
+    at Frame.waitForSelector (C:\Users\Admin\AppData\Local\Temp\playwright-java-5718796721961546678\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\Admin\AppData\Local\Temp\playwright-java-5718796721961546678\package\lib\server\dispatchers\frameDispatcher.js:98:117)
+    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-5718796721961546678\package\lib\server\dispatchers\dispatcher.js:312:46)
+}
+2023-11-06 15:43:33.604ERROR- Page source on failure : 
+2023-11-06 15:43:33.613ERROR- <!DOCTYPE html><html lang="en"><head>
+  <meta use-1a-ddna="true">
+  <meta charset="utf-8">
+  <meta lid="c_YFWQKVxwBKTVTZZHrZtxzo5sj9uZnP">
+  <title>Central Login Panel</title>
+  <base href="/LoginService/ng/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="design-factory.3fcb7a3a1c92304b.css">
+</head>
+<body>
+   <ui-view ng-version="13.3.11"><app-root><ui-view><app-login><app-skins></app-skins><!----><div id="welcomePage" class="welcomePage branding branding2"><div class="welcomePageBody"><div class="usermanagementPanel"><div class="usermanagementMainContent"><div class="tit1">  </div><div class="tit2">  </div><div class="viewContainer"><ui-view><app-login-panel><div><!----><!----><!----></div><!----></app-login-panel><!----><!----></ui-view><!----></div></div></div><!----><!----></div></div><!----></app-login><!----><!----></ui-view><!----></app-root><!----><!----></ui-view><!---->
+   <script src="runtime-es2015.f95d1a590b732ffd.js" type="module"></script>
+   <script src="polyfills-es2015.d6834f253e67dc66.js" type="module"></script>
+   <script src="main-es2015.4e7e6d942cdcd01c.js" type="module"></script>
+
+<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&amp;ns=1&amp;cb=2134476147" async=""></script>
+</body></html>

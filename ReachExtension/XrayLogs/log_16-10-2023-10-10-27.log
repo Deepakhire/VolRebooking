@@ -1,0 +1,11 @@
+2023-10-16 22:10:27.812INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-16 22:10:27.820INFO - Test Start Time: 2023-10-16T22:10:27+05:30
+2023-10-16 22:10:37.579INFO - Executing : user_launches_web_application
+2023-10-16 22:11:10.799INFO - Executing : user_enters_credential_in_login_page
+2023-10-16 22:14:53.412INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Mon_Oct_16_22_14_53_IST_2023/', outputName='CucumberResultsOverview_LH_Mon_Oct_16_22_14_53_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-10-16 22:14:54.127INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\ReachExtension\Reports\LH_Mon_Oct_16_22_14_53_IST_2023\CucumberResultsOverview_LH_Mon_Oct_16_22_14_53_IST_2023-feature-overview.html
+2023-10-16 22:14:54.129INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Mon_Oct_16_22_14_53_IST_2023/', outputName='CucumberDetailedResults_LH_Mon_Oct_16_22_14_53_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}
+2023-10-16 22:14:54.279INFO - Generating DetailedReport completed C:\Users\Admin\OneDrive\Desktop\ReachExtension\Reports\LH_Mon_Oct_16_22_14_53_IST_2023\CucumberDetailedResults_LH_Mon_Oct_16_22_14_53_IST_2023-test-results.html
+2023-10-16 22:14:54.282INFO - Generating OverviewDetailedCombinedReport startedOverviewDetailedCombinedReport{targetDirectoryPath='./Reports/LH_Mon_Oct_16_22_14_53_IST_2023/', outputName='OverviewDetailedReport_LH_Mon_Oct_16_22_14_53_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', itemInfos=[com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@52a36910, com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@3a095ec0]}
+2023-10-16 22:14:54.383INFO - Generating OverviewDetailedCombinedReport completed C:\Users\Admin\OneDrive\Desktop\ReachExtension\Reports\LH_Mon_Oct_16_22_14_53_IST_2023\OverviewDetailedReport_LH_Mon_Oct_16_22_14_53_IST_2023-.html
+2023-10-16 22:14:54.383INFO - .\Reports\LH_Mon_Oct_16_22_14_53_IST_2023\OverviewDetailedReport_LH_Mon_Oct_16_22_14_53_IST_2023-.html

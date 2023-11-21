@@ -1,0 +1,22 @@
+{
+  "TC_008":
+  {
+    "PNR_Flow008":
+    {
+      "credential" : "username,organization,amadeus_Pwd",
+      "username" : "u102542",
+      "organization" : "LH",
+      "amadeus_Pwd" : "bV4Dg8LR",
+      "origin_city": "FRA",
+      "destination_city": "NYC",
+      "Adults": "1",
+      "firstName": "Test",
+      "lastName": "User",
+      "emailAddress": "test@yopmail.com",
+      "countryCode": "Germany",
+      "phoneNumber": "1234567899",
+      "record_locator": "S5EGSI",
+      "last_name": "User"
+    }
+  }
+}

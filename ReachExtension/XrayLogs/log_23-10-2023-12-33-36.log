@@ -1,0 +1,12 @@
+2023-10-23 12:33:36.683INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-23 12:33:36.724INFO - Test Start Time: 2023-10-23T12:33:36+05:30
+2023-10-23 12:33:49.374INFO - Executing : user_launches_web_application
+2023-10-23 12:34:23.233INFO - Executing : user_enters_credential_in_login_page
+2023-10-23 12:36:32.689ERROR- Timeout 30000ms exceeded
+2023-10-23 12:37:13.583INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Mon_Oct_23_12_37_13_IST_2023/', outputName='CucumberResultsOverview_LH_Mon_Oct_23_12_37_13_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-10-23 12:37:14.665INFO - Generating DetailedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Mon_Oct_23_12_37_13_IST_2023\CucumberResultsOverview_LH_Mon_Oct_23_12_37_13_IST_2023-feature-overview.html
+2023-10-23 12:37:14.668INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Mon_Oct_23_12_37_13_IST_2023/', outputName='CucumberDetailedResults_LH_Mon_Oct_23_12_37_13_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}
+2023-10-23 12:37:14.802INFO - Generating DetailedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Mon_Oct_23_12_37_13_IST_2023\CucumberDetailedResults_LH_Mon_Oct_23_12_37_13_IST_2023-test-results.html
+2023-10-23 12:37:14.806INFO - Generating OverviewDetailedCombinedReport startedOverviewDetailedCombinedReport{targetDirectoryPath='./Reports/LH_Mon_Oct_23_12_37_13_IST_2023/', outputName='OverviewDetailedReport_LH_Mon_Oct_23_12_37_13_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', itemInfos=[com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@abbc908, com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@44afefd5]}
+2023-10-23 12:37:14.896INFO - Generating OverviewDetailedCombinedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Mon_Oct_23_12_37_13_IST_2023\OverviewDetailedReport_LH_Mon_Oct_23_12_37_13_IST_2023-.html
+2023-10-23 12:37:14.896INFO - .\Reports\LH_Mon_Oct_23_12_37_13_IST_2023\OverviewDetailedReport_LH_Mon_Oct_23_12_37_13_IST_2023-.html

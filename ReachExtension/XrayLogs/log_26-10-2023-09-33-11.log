@@ -1,0 +1,25 @@
+2023-10-26 09:33:11.816INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-26 09:33:11.824INFO - Test Start Time: 2023-10-26T09:33:11+05:30
+2023-10-26 09:33:17.737INFO - Executing : user_launches_web_application
+2023-10-26 09:33:51.089INFO - Executing : user_enters_credential_in_login_page
+2023-10-26 09:36:21.408ERROR- Error {
+  message='Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//span[text()='Enter passenger details']").first()
+============================================================
+  name='Error
+  stack='Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=//span[text()='Enter passenger details']").first()
+============================================================
+    at C:\Users\Admin\AppData\Local\Temp\playwright-java-10261801302360865546\package\lib\server\chromium\crConnection.js:169:16
+    at new Promise (<anonymous>)
+    at CRSession.send (C:\Users\Admin\AppData\Local\Temp\playwright-java-10261801302360865546\package\lib\server\chromium\crConnection.js:165:12)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-10261801302360865546\package\lib\server\chromium\crExecutionContext.js:78:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\Admin\AppData\Local\Temp\playwright-java-10261801302360865546\package\lib\server\javascript.js:60:61)
+    at evaluateExpression (C:\Users\Admin\AppData\Local\Temp\playwright-java-10261801302360865546\package\lib\server\javascript.js:218:26)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-10261801302360865546\package\lib\server\frames.js:937:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\Admin\AppData\Local\Temp\playwright-java-10261801302360865546\package\lib\server\frames.js:908:24)
+    at async C:\Users\Admin\AppData\Local\Temp\playwright-java-10261801302360865546\package\lib\server\frames.js:992:29
+    at async ProgressController.run (C:\Users\Admin\AppData\Local\Temp\playwright-java-10261801302360865546\package\lib\server\progress.js:92:22)
+}

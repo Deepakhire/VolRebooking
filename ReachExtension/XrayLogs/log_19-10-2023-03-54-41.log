@@ -1,0 +1,11 @@
+2023-10-19 15:54:41.336INFO - Log configuration done. Log Dir:./XrayLogs
+2023-10-19 15:54:41.342INFO - Test Start Time: 2023-10-19T15:54:41+05:30
+2023-10-19 15:54:53.285INFO - Executing : user_launches_web_application
+2023-10-19 15:55:30.263INFO - Executing : user_enters_credential_in_login_page
+2023-10-19 15:57:13.685INFO - Generating OverviewReport startedOverviewReport{targetDirectoryPath='./Reports/LH_Thu_Oct_19_15_57_13_IST_2023/', outputName='CucumberResultsOverview_LH_Thu_Oct_19_15_57_13_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json'}
+2023-10-19 15:57:14.517INFO - Generating DetailedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Thu_Oct_19_15_57_13_IST_2023\CucumberResultsOverview_LH_Thu_Oct_19_15_57_13_IST_2023-feature-overview.html
+2023-10-19 15:57:14.518INFO - Generating DetailedReport startedDetailedReport{targetDirectoryPath='./Reports/LH_Thu_Oct_19_15_57_13_IST_2023/', outputName='CucumberDetailedResults_LH_Thu_Oct_19_15_57_13_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', screenShotLocation='images/resources/'}
+2023-10-19 15:57:14.623INFO - Generating DetailedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Thu_Oct_19_15_57_13_IST_2023\CucumberDetailedResults_LH_Thu_Oct_19_15_57_13_IST_2023-test-results.html
+2023-10-19 15:57:14.626INFO - Generating OverviewDetailedCombinedReport startedOverviewDetailedCombinedReport{targetDirectoryPath='./Reports/LH_Thu_Oct_19_15_57_13_IST_2023/', outputName='OverviewDetailedReport_LH_Thu_Oct_19_15_57_13_IST_2023', templatePath='./custom_templates/templates.json', sourceName='target/cucumber.json', itemInfos=[com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@4a1c0752, com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedItemInfo@332f25c8]}
+2023-10-19 15:57:14.724INFO - Generating OverviewDetailedCombinedReport completed C:\Users\Admin\Desktop\rebook\ReachExtension\ReachExtension\Reports\LH_Thu_Oct_19_15_57_13_IST_2023\OverviewDetailedReport_LH_Thu_Oct_19_15_57_13_IST_2023-.html
+2023-10-19 15:57:14.725INFO - .\Reports\LH_Thu_Oct_19_15_57_13_IST_2023\OverviewDetailedReport_LH_Thu_Oct_19_15_57_13_IST_2023-.html
